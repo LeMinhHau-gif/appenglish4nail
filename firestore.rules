@@ -1,0 +1,115 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Global Deny All Catch-all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() > 0 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && (request.auth.uid == userId || (request.auth.token.email != null && resource.data.email == request.auth.token.email));
+    }
+
+    function isAdmin() {
+      return isSignedIn() && (
+        request.auth.token.email == 'leminhhaukrb16@gmail.com' ||
+        request.auth.token.email == 'superadmin@nailspeak.pro' ||
+        request.auth.token.email == 'admin@nailspeak.pro' ||
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ['super_admin', 'admin'])
+      );
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    // Validation for User
+    function isValidUser(data) {
+      return data.id is string && data.id.size() <= 128 &&
+             data.name is string && data.name.size() > 0 && data.name.size() <= 100 &&
+             data.email is string && data.email.size() > 0 && data.email.size() <= 150 &&
+             data.role in ['super_admin', 'admin', 'content_manager', 'support', 'analyst', 'learner'] &&
+             data.status in ['active', 'locked'];
+    }
+
+    // Users Collection
+    match /users/{userId} {
+      allow get: if isSignedIn() && (request.auth.uid == userId || isAdmin());
+      allow list: if isAdmin();
+      allow create: if isSignedIn() && isValidId(userId) && isValidUser(incoming()) && (
+        request.auth.uid == userId || isAdmin()
+      );
+      allow update: if isSignedIn() && isValidId(userId) && isValidUser(incoming()) && (
+        isAdmin() ||
+        (request.auth.uid == userId && (
+          // Learner can update their own progress, streak, avatar, and request subscription
+          incoming().diff(existing()).affectedKeys().hasOnly([
+            'totalXp', 'streakDays', 'completedLessonsCount', 'avgPronunciationScore',
+            'avatarUrl', 'salonName', 'salonLocation', 'lastLogin',
+            'subscriptionStatus', 'subscriptionRequestedPlan'
+          ])
+        ))
+      );
+      allow delete: if isAdmin();
+    }
+
+    // Learner History Collection
+    match /learnerHistory/{historyId} {
+      allow get: if isSignedIn() && isValidId(historyId) && (
+        resource.data.userId == request.auth.uid || isAdmin()
+      );
+      allow list: if isSignedIn() && (
+        isAdmin() || resource.data.userId == request.auth.uid
+      );
+      allow create: if isSignedIn() && isValidId(historyId) &&
+                    incoming().userId is string && incoming().userId.size() <= 128 &&
+                    (incoming().userId == request.auth.uid || isAdmin());
+      allow update: if isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    // Subscriptions Collection
+    match /subscriptions/{subscriptionId} {
+      allow get: if isSignedIn() && isValidId(subscriptionId) && (
+        resource.data.userId == request.auth.uid || isAdmin()
+      );
+      allow list: if isSignedIn() && (
+        isAdmin() || resource.data.userId == request.auth.uid
+      );
+      allow create: if isSignedIn() && isValidId(subscriptionId) &&
+                    incoming().userId is string &&
+                    (incoming().userId == request.auth.uid || isAdmin()) &&
+                    incoming().planId in ['3_months', '6_months', '1_year', 'lifetime'];
+      allow update: if isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    // Audit Logs Collection
+    match /auditLogs/{logId} {
+      allow read: if isAdmin();
+      allow create: if isSignedIn() && isValidId(logId);
+      allow update, delete: if false; // Audit logs are immutable
+    }
+
+    // Test connection doc
+    match /test/{docId} {
+      allow read, write: if true;
+    }
+  }
+}

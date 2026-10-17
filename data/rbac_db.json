@@ -1,0 +1,2148 @@
+{
+  "users": [
+    {
+      "id": "usr-superadmin",
+      "name": "Sarah Nguyễn",
+      "email": "superadmin@nailspeak.pro",
+      "role": "super_admin",
+      "status": "active",
+      "salonName": "NailSpeak HQ Tech",
+      "salonLocation": "Los Angeles, CA",
+      "phone": "(714) 892-1234",
+      "createdAt": "2026-01-10T08:00:00Z",
+      "lastLogin": "2026-10-17T11:08:49.986Z",
+      "totalXp": 9800,
+      "streakDays": 45,
+      "completedLessonsCount": 8,
+      "avgPronunciationScore": 98,
+      "note": "Nhà sáng lập & Quản trị viên cấp cao"
+    },
+    {
+      "id": "usr-admin",
+      "name": "David Trần",
+      "email": "admin@nailspeak.pro",
+      "role": "admin",
+      "status": "active",
+      "salonName": "Luxury Nails & Spa",
+      "salonLocation": "Houston, TX",
+      "phone": "(832) 555-0199",
+      "createdAt": "2026-01-15T09:30:00Z",
+      "lastLogin": "2026-10-17T10:08:49.986Z",
+      "totalXp": 6400,
+      "streakDays": 28,
+      "completedLessonsCount": 7,
+      "avgPronunciationScore": 92,
+      "note": "Quản trị viên vận hành khu vực Texas"
+    },
+    {
+      "id": "usr-content",
+      "name": "Jessica Lê",
+      "email": "content@nailspeak.pro",
+      "role": "content_manager",
+      "status": "active",
+      "salonName": "Glossy Lounge Nail Studio",
+      "salonLocation": "Orange County, CA",
+      "phone": "(714) 555-8822",
+      "createdAt": "2026-01-20T10:15:00Z",
+      "lastLogin": "2026-10-17T09:08:49.986Z",
+      "totalXp": 5100,
+      "streakDays": 20,
+      "completedLessonsCount": 8,
+      "avgPronunciationScore": 95,
+      "note": "Biên soạn kịch bản hội thoại & từ vựng salon"
+    },
+    {
+      "id": "usr-support",
+      "name": "Alex Vũ",
+      "email": "support@nailspeak.pro",
+      "role": "support",
+      "status": "active",
+      "salonName": "Central Care Hub",
+      "salonLocation": "Atlanta, GA",
+      "phone": "(404) 555-7311",
+      "createdAt": "2026-02-01T11:00:00Z",
+      "lastLogin": "2026-10-17T10:38:49.986Z",
+      "totalXp": 3400,
+      "streakDays": 14,
+      "completedLessonsCount": 5,
+      "avgPronunciationScore": 88,
+      "note": "Hỗ trợ kỹ thuật và thắc mắc học viên"
+    },
+    {
+      "id": "usr-analyst",
+      "name": "Michael Đỗ",
+      "email": "analyst@nailspeak.pro",
+      "role": "analyst",
+      "status": "active",
+      "salonName": "Analytics & Insights Team",
+      "salonLocation": "San Jose, CA",
+      "phone": "(408) 555-9012",
+      "createdAt": "2026-02-05T14:20:00Z",
+      "lastLogin": "2026-10-17T07:08:49.986Z",
+      "totalXp": 4200,
+      "streakDays": 16,
+      "completedLessonsCount": 6,
+      "avgPronunciationScore": 90,
+      "note": "Chuyên viên phân tích số liệu học tập"
+    },
+    {
+      "id": "usr-learner-1",
+      "name": "Lisa Hoàng",
+      "email": "learner@nailspeak.pro",
+      "role": "learner",
+      "status": "active",
+      "salonName": "Princess Nails & Spa",
+      "salonLocation": "Garden Grove, CA",
+      "phone": "(714) 555-3490",
+      "createdAt": "2026-02-10T16:00:00Z",
+      "lastLogin": "2026-10-17T11:08:49.986Z",
+      "totalXp": 2850,
+      "streakDays": 12,
+      "completedLessonsCount": 4,
+      "avgPronunciationScore": 86,
+      "note": "Thợ nail chuyên bột & design móng"
+    },
+    {
+      "id": "usr-learner-2",
+      "name": "Tina Phạm",
+      "email": "tina.pham@houstonnails.com",
+      "role": "learner",
+      "status": "active",
+      "salonName": "Organic Nail Lounge",
+      "salonLocation": "Houston, TX",
+      "phone": "(832) 555-6677",
+      "createdAt": "2026-02-15T09:00:00Z",
+      "lastLogin": "2026-10-16T11:08:49.986Z",
+      "totalXp": 1950,
+      "streakDays": 7,
+      "completedLessonsCount": 3,
+      "avgPronunciationScore": 82,
+      "note": "Thợ làm chân tay nước (Pedicure & Manicure)"
+    },
+    {
+      "id": "usr-learner-3",
+      "name": "Kevin Đặng",
+      "email": "kevin.d@ocnails.com",
+      "role": "learner",
+      "status": "active",
+      "salonName": "Diamond Nails Bar",
+      "salonLocation": "Westminster, CA",
+      "phone": "(714) 555-4411",
+      "createdAt": "2026-02-18T10:00:00Z",
+      "lastLogin": "2026-10-15T11:08:49.986Z",
+      "totalXp": 1400,
+      "streakDays": 5,
+      "completedLessonsCount": 2,
+      "avgPronunciationScore": 79,
+      "note": "Học giao tiếp xử lý khách phàn nàn & tip"
+    },
+    {
+      "id": "usr-learner-4",
+      "name": "Nancy Huỳnh",
+      "email": "nancy.h@dallasnails.com",
+      "role": "learner",
+      "status": "locked",
+      "salonName": "Regal Nails Dallas",
+      "salonLocation": "Dallas, TX",
+      "phone": "(214) 555-9900",
+      "createdAt": "2026-02-22T12:00:00Z",
+      "lastLogin": "2026-03-01T15:30:00Z",
+      "totalXp": 820,
+      "streakDays": 2,
+      "completedLessonsCount": 1,
+      "avgPronunciationScore": 74,
+      "note": "Tạm khóa tài khoản do yêu cầu bảo mật"
+    },
+    {
+      "name": "Lê Minh Hậu",
+      "email": "leminhhaukrb16@gmail.com",
+      "role": "content_manager",
+      "status": "active",
+      "authProvider": "google",
+      "isNewUser": false,
+      "note": "Người dùng mới đăng nhập bằng Google. Chờ Quản trị viên phân quyền nếu cần. | Cấp quyền Content Manager khu vực California",
+      "salonName": "Tiệm Nail Thành Viên",
+      "salonLocation": "Chưa cập nhật",
+      "id": "usr-mvccfzpd",
+      "createdAt": "2026-10-17T11:59:18.145Z",
+      "lastLogin": "2026-10-17T12:04:05.469Z",
+      "totalXp": 0,
+      "streakDays": 0,
+      "completedLessonsCount": 0,
+      "avgPronunciationScore": 75,
+      "roleGrantedBy": "Sarah Nguyễn (super_admin)",
+      "roleGrantedAt": "2026-10-17T12:00:05.645Z",
+      "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&auto=format&fit=crop&q=80"
+    },
+    {
+      "name": "Test Tech",
+      "email": "test.tech@gmail.com",
+      "role": "learner",
+      "status": "active",
+      "note": "Đã duyệt Gói 6 Tháng bởi Sarah Nguyễn ngày 17/10/2026",
+      "id": "usr-mvcelh2o",
+      "createdAt": "2026-10-17T12:59:33.168Z",
+      "lastLogin": "2026-10-17T12:59:33.168Z",
+      "totalXp": 0,
+      "streakDays": 0,
+      "completedLessonsCount": 0,
+      "avgPronunciationScore": 75,
+      "subscriptionStatus": "active",
+      "subscriptionRequestedPlan": "6_months",
+      "subscriptionPlan": "6_months",
+      "subscriptionExpiresAt": "2027-04-17T12:59:38.201Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "actorId": "usr-superadmin",
+      "actorName": "Sarah Nguyễn",
+      "actorRole": "super_admin",
+      "action": "SUBSCRIPTION_APPROVE",
+      "targetResource": "sub-1792241973169-590t",
+      "details": "Quản trị viên Sarah Nguyễn đã DUYỆT thành công Gói 6 Tháng cho học viên Test Tech (test.tech@gmail.com)",
+      "status": "success",
+      "id": "log-mvcelkyr-j39d",
+      "timestamp": "2026-10-17T12:59:38.211Z"
+    },
+    {
+      "actorId": "usr-mvcelh2o",
+      "actorName": "Test Tech",
+      "actorRole": "learner",
+      "action": "SUBSCRIPTION_REGISTER",
+      "targetResource": "sub-1792241973169-590t",
+      "details": "Học viên đăng ký Gói 6 Tháng ($25). Trạng thái: Chờ Admin phê duyệt. Ghi chú: Zelle 1234",
+      "status": "success",
+      "id": "log-mvcelh2q-o85d",
+      "timestamp": "2026-10-17T12:59:33.170Z"
+    },
+    {
+      "actorId": "usr-mvccfzpd",
+      "actorName": "Lê Minh Hậu",
+      "actorRole": "content_manager",
+      "action": "ACCESS_DENIED",
+      "targetResource": "/api/admin/settings",
+      "details": "Cố gắng thực hiện quyền [settings.view] không được cấp phép",
+      "status": "denied",
+      "ipAddress": "::ffff:127.0.0.1",
+      "id": "log-mvcchiu9-b44b",
+      "timestamp": "2026-10-17T12:00:29.601Z"
+    },
+    {
+      "actorId": "usr-superadmin",
+      "actorName": "Sarah Nguyễn",
+      "actorRole": "super_admin",
+      "action": "ROLE_ASSIGN",
+      "targetResource": "usr-mvccfzpd",
+      "details": "Cấp quyền & gán vai trò [Quản Lý Nội Dung] cho Lê Minh Hậu (Ghi chú: Cấp quyền Content Manager khu vực California)",
+      "status": "success",
+      "id": "log-mvcch0cu-5a3z",
+      "timestamp": "2026-10-17T12:00:05.646Z"
+    },
+    {
+      "actorId": "usr-mvccfzpd",
+      "actorName": "Lê Minh Hậu",
+      "actorRole": "learner",
+      "action": "GOOGLE_SIGNUP",
+      "targetResource": "usr-mvccfzpd",
+      "details": "Đăng ký tài khoản mới qua Google (leminhhaukrb16@gmail.com). Trạng thái: Chờ duyệt/phân quyền.",
+      "status": "success",
+      "id": "log-mvccfzpe-mzai",
+      "timestamp": "2026-10-17T11:59:18.146Z"
+    },
+    {
+      "actorId": "usr-analyst",
+      "actorName": "Michael Đỗ",
+      "actorRole": "analyst",
+      "action": "REPORT_EXPORT",
+      "targetResource": "reports.csv",
+      "details": "Xuất file báo cáo danh sách và tiến độ học viên (9 tài khoản)",
+      "status": "success",
+      "id": "log-mvcanpxi-0aq8",
+      "timestamp": "2026-10-17T11:09:19.494Z"
+    },
+    {
+      "actorId": "usr-support",
+      "actorName": "Alex Vũ",
+      "actorRole": "support",
+      "action": "ACCESS_DENIED",
+      "targetResource": "/api/admin/settings",
+      "details": "Cố gắng thực hiện quyền [settings.view] không được cấp phép",
+      "status": "denied",
+      "ipAddress": "::ffff:127.0.0.1",
+      "id": "log-mvcanfpx-duo3",
+      "timestamp": "2026-10-17T11:09:06.261Z"
+    },
+    {
+      "id": "log-101",
+      "timestamp": "2026-10-14T11:08:49.986Z",
+      "actorId": "usr-superadmin",
+      "actorName": "Sarah Nguyễn",
+      "actorRole": "super_admin",
+      "action": "INIT_SYSTEM",
+      "targetResource": "system.core",
+      "details": "Khởi tạo hệ thống quản trị phân quyền RBAC 5 vai trò thành công",
+      "ipAddress": "192.168.1.10",
+      "status": "success"
+    },
+    {
+      "id": "log-102",
+      "timestamp": "2026-10-15T11:08:49.986Z",
+      "actorId": "usr-superadmin",
+      "actorName": "Sarah Nguyễn",
+      "actorRole": "super_admin",
+      "action": "ROLE_ASSIGN",
+      "targetResource": "usr-admin",
+      "details": "Gán vai trò Admin (Quản trị viên) cho David Trần",
+      "ipAddress": "192.168.1.10",
+      "status": "success"
+    },
+    {
+      "id": "log-103",
+      "timestamp": "2026-10-15T11:08:49.986Z",
+      "actorId": "usr-admin",
+      "actorName": "David Trần",
+      "actorRole": "admin",
+      "action": "USER_LOCK",
+      "targetResource": "usr-learner-4",
+      "details": "Tạm khóa tài khoản Nancy Huỳnh do yêu cầu bảo mật",
+      "ipAddress": "10.0.0.45",
+      "status": "success"
+    },
+    {
+      "id": "log-104",
+      "timestamp": "2026-10-16T11:08:49.986Z",
+      "actorId": "usr-content",
+      "actorName": "Jessica Lê",
+      "actorRole": "content_manager",
+      "action": "COURSE_PUBLISH",
+      "targetResource": "lesson-1",
+      "details": "Xuất bản bài học: Khách Chê Thợ Làm Nhanh, Làm Ẩu",
+      "ipAddress": "172.16.0.8",
+      "status": "success"
+    },
+    {
+      "id": "log-105",
+      "timestamp": "2026-10-17T06:08:49.986Z",
+      "actorId": "usr-support",
+      "actorName": "Alex Vũ",
+      "actorRole": "support",
+      "action": "TICKET_UPDATE",
+      "targetResource": "tick-101",
+      "details": "Cập nhật ghi chú hỗ trợ học viên Lisa Hoàng",
+      "ipAddress": "192.168.2.14",
+      "status": "success"
+    }
+  ],
+  "supportTickets": [
+    {
+      "id": "tick-101",
+      "userId": "usr-learner-1",
+      "userName": "Lisa Hoàng",
+      "userEmail": "learner@nailspeak.pro",
+      "salonLocation": "Garden Grove, CA",
+      "subject": "Muốn luyện phát âm thêm các từ về viền móng (cuticle) và móng úp (gel-x)",
+      "category": "pronunciation_ai",
+      "priority": "medium",
+      "status": "in_progress",
+      "createdAt": "2026-10-15T11:08:49.986Z",
+      "updatedAt": "2026-10-17T07:08:49.986Z",
+      "assignedTo": "Alex Vũ",
+      "internalNotes": [
+        {
+          "id": "note-1",
+          "authorName": "Alex Vũ",
+          "content": "Đã hướng dẫn học viên dùng chế độ Đọc chậm 0.65× trong tab Từ Vựng để luyện âm đuôi /l/ và /ks/.",
+          "createdAt": "2026-10-17T07:08:49.986Z"
+        }
+      ]
+    },
+    {
+      "id": "tick-102",
+      "userId": "usr-learner-2",
+      "userName": "Tina Phạm",
+      "userEmail": "tina.pham@houstonnails.com",
+      "salonLocation": "Houston, TX",
+      "subject": "Micro bị rè khi dùng tai nghe Bluetooth trong tiệm lúc đông khách",
+      "category": "audio_issue",
+      "priority": "high",
+      "status": "open",
+      "createdAt": "2026-10-16T11:08:49.986Z",
+      "updatedAt": "2026-10-16T11:08:49.986Z",
+      "assignedTo": "Alex Vũ",
+      "internalNotes": []
+    },
+    {
+      "id": "tick-103",
+      "userId": "usr-learner-3",
+      "userName": "Kevin Đặng",
+      "userEmail": "kevin.d@ocnails.com",
+      "salonLocation": "Westminster, CA",
+      "subject": "Đã hoàn thành bài 1 và 2, cần tài liệu PDF in ra để ở bàn nail",
+      "category": "lesson_content",
+      "priority": "low",
+      "status": "resolved",
+      "createdAt": "2026-10-12T11:08:49.986Z",
+      "updatedAt": "2026-10-15T11:08:49.986Z",
+      "assignedTo": "David Trần",
+      "internalNotes": [
+        {
+          "id": "note-2",
+          "authorName": "David Trần",
+          "content": "Đã gửi file cheat-sheet câu mẫu qua email cho anh Kevin.",
+          "createdAt": "2026-10-15T11:08:49.986Z"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "appName": "NailSpeak Pro - Quản Trị Hệ Thống",
+    "salonSupportHotline": "1-800-NAIL-ENG (1-800-624-5364)",
+    "supportEmail": "support@nailspeak.pro",
+    "maintenanceMode": false,
+    "allowPublicRegistration": true,
+    "minPronunciationPassScore": 70,
+    "systemAnnouncement": "🔔 Thông Báo Quản Trị: Học viên Test Tech (test.tech@gmail.com) vừa đăng ký Gói 6 Tháng ($25). Vui lòng vào duyệt gói!",
+    "sessionTimeoutHours": 24,
+    "enableAiRoleplay": true
+  },
+  "courses": [
+    {
+      "id": "lesson-1",
+      "title": "Khách Chê Thợ Làm Nhanh, Làm Ẩu",
+      "tagline": "Xin lỗi chân thành, giữ bình tĩnh và làm lại cẩn thận biến khách bực thành khách quen",
+      "category": "complaints",
+      "categoryNameVi": "Xử Lý Phàn Nàn",
+      "iconName": "Sparkles",
+      "badge": "Cốt lõi",
+      "difficulty": "Cơ bản",
+      "estimatedMinutes": 8,
+      "summary": "Khi khách chê sơn bị lem, viền chưa gọn hoặc làm quá nhanh, tuyệt đối không tự ái hay phân trần. Nhận lỗi nhanh, hỏi rõ vị trí chưa ưng, cam kết làm kỹ và khẳng định không tính thêm tiền.",
+      "culturalNote": "Ở Mỹ, khách chịu nói thẳng chỗ chưa ưng là họ còn muốn tiệm làm đúng để quay lại. Khách im lặng rồi lên Yelp chấm 1 sao hoặc một đi không trở lại mới đáng sợ nhất. Luôn cảm ơn lời góp ý của khách.",
+      "dialogue": [
+        {
+          "id": "d1-1",
+          "speaker": "client",
+          "english": "Excuse me, you're going way too fast! The polish looks uneven and the cuticles are messy.",
+          "vietnamese": "Xin lỗi, em làm nhanh quá vậy! Nước sơn nhìn không đều còn viền da thì luộm thuộm.",
+          "ipa": "/ɪkˈskjuːz miː, jʊr ˈɡoʊɪŋ weɪ tuː fæst/",
+          "tip": "Khách đang khó chịu, hãy nhìn vào mắt khách với thái độ ân cần và hạ giọng."
+        },
+        {
+          "id": "d1-2",
+          "speaker": "tech",
+          "english": "You're right, I'm sorry. I apologize, I was going too fast.",
+          "vietnamese": "Chị nói đúng, em xin lỗi chị. Em sơ suất làm hơi nhanh quá.",
+          "ipa": "/jʊr raɪt, aɪm ˈsɑːri. aɪ əˈpɑːləˌdʒaɪz/",
+          "tip": "Nhận lỗi ngay lập tức để xoa dịu cảm xúc bực bội của khách."
+        },
+        {
+          "id": "d1-3",
+          "speaker": "tech",
+          "english": "Thank you for telling me, I really appreciate it. Can you show me which spots you're not happy with?",
+          "vietnamese": "Cảm ơn chị đã góp ý cho em biết. Chị chỉ giúp em những chỗ chị chưa ưng ý nha.",
+          "ipa": "/ˈθæŋk juː fɔːr ˈtɛlɪŋ miː/",
+          "tip": "Hỏi cụ thể để sửa đúng chỗ, không đoán mò."
+        },
+        {
+          "id": "d1-4",
+          "speaker": "client",
+          "english": "These two fingers right here have polish on the skin, and the edges are rough.",
+          "vietnamese": "Hai ngón này bị dính sơn ra ngoài da nè, với lại viền móng còn gồ ghề."
+        },
+        {
+          "id": "d1-5",
+          "speaker": "tech",
+          "english": "I see it now. I'm going to slow down and take my time on this. Let me clean up the edges and fix the polish around your cuticles.",
+          "vietnamese": "Dạ em thấy rồi. Em sẽ làm chậm lại và chăm chút thật kỹ. Để em dọn sạch viền và chỉnh lại phần sơn quanh khóe da cho chị.",
+          "tip": "Khẳng định mình sẽ \"take my time\" để khách an tâm tuyệt đối."
+        },
+        {
+          "id": "d1-6",
+          "speaker": "tech",
+          "english": "If you'd like, I can take this one off and redo it completely. Of course, there's no extra charge for this.",
+          "vietnamese": "Nếu chị muốn, em sẽ tháo móng này ra làm lại từ đầu. Dĩ nhiên là hoàn toàn không tính thêm bất kỳ chi phí nào đâu chị.",
+          "tip": "Luôn nhấn mạnh \"no extra charge\" vì khách Mỹ hay lo bị charge thêm tiền."
+        },
+        {
+          "id": "d1-7",
+          "speaker": "tech",
+          "english": "Take a look, how does this one look now? Before we finish, let's go over every nail together under the light.",
+          "vietnamese": "Chị xem thử, ngón này nhìn đã ổn hơn chưa? Trước khi xong, hai chị em mình cùng kiểm tra lại từng móng dưới ánh đèn nha.",
+          "tip": "Chủ động mời khách kiểm tra dưới đèn để cả hai cùng hài lòng trước khi ra về."
+        },
+        {
+          "id": "d1-8",
+          "speaker": "tech",
+          "english": "Thanks for giving me the chance to make it right!",
+          "vietnamese": "Cảm ơn chị rất nhiều vì đã cho em cơ hội sửa lại cho thật đẹp!",
+          "tip": "Câu kết đắt giá biến khách đang phàn nàn thành khách ruột lâu dài."
+        }
+      ],
+      "keyPhrases": [
+        {
+          "id": "kp1-1",
+          "english": "You're right, I'm sorry. I should have taken more time.",
+          "vietnamese": "Chị nói đúng, em xin lỗi. Đáng lẽ em phải làm kỹ hơn.",
+          "context": "Nhận lỗi nhanh khi khách vừa phàn nàn."
+        },
+        {
+          "id": "kp1-2",
+          "english": "Can you show me which spots you're not happy with?",
+          "vietnamese": "Chị chỉ giúp em chỗ nào chị chưa ưng ý nhé?",
+          "context": "Xác định chính xác vị trí lỗi để sửa."
+        },
+        {
+          "id": "kp1-3",
+          "english": "I'm going to slow down and take my time on this.",
+          "vietnamese": "Em sẽ làm chậm lại và tỉ mỉ từng chút.",
+          "context": "Cam kết hành động làm khách yên lòng."
+        },
+        {
+          "id": "kp1-4",
+          "english": "Of course, there's no extra charge for this.",
+          "vietnamese": "Dĩ nhiên là không có phụ phí nào đâu chị.",
+          "context": "Giải tỏa nỗi lo bị tính thêm tiền."
+        },
+        {
+          "id": "kp1-5",
+          "english": "Thanks for giving me the chance to make it right.",
+          "vietnamese": "Cảm ơn chị đã cho em cơ hội sửa lại cho đúng ý.",
+          "context": "Lời kết tinh tế xây dựng lòng tin."
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "v1-1",
+          "word": "Take my time",
+          "phonetic": "/teɪk maɪ taɪm/",
+          "meaning": "Làm thong thả, tỉ mỉ, không vội vàng",
+          "exampleEn": "I'm going to take my time to get the shape perfect.",
+          "exampleVi": "Em sẽ làm thật thong thả để dũa form thật chuẩn cho chị."
+        },
+        {
+          "id": "v1-2",
+          "word": "Clean up the edges",
+          "phonetic": "/kliːn ʌp ði ˈɛdʒɪz/",
+          "meaning": "Làm sạch, dọn gọn viền móng",
+          "exampleEn": "Let me clean up the edges around your cuticles.",
+          "exampleVi": "Để em lau sạch và tỉa gọn viền quanh khóe móng nhé."
+        },
+        {
+          "id": "v1-3",
+          "word": "Redo",
+          "phonetic": "/ˌriːˈduː/",
+          "meaning": "Làm lại từ đầu",
+          "exampleEn": "I can redo this nail if you're not satisfied.",
+          "exampleVi": "Em có thể làm lại ngón này nếu chị chưa vừa ý."
+        },
+        {
+          "id": "v1-4",
+          "word": "No extra charge",
+          "phonetic": "/noʊ ˈɛkstrə tʃɑːrdʒ/",
+          "meaning": "Không tính thêm tiền / miễn phí sửa",
+          "exampleEn": "There's no extra charge for fixing this polish.",
+          "exampleVi": "Sửa lại nước sơn này hoàn toàn không tính thêm tiền đâu ạ."
+        },
+        {
+          "id": "v1-5",
+          "word": "Make it right",
+          "phonetic": "/meɪk ɪt raɪt/",
+          "meaning": "Sửa chữa sai sót cho đúng và vừa lòng khách",
+          "exampleEn": "We always want to make it right for you.",
+          "exampleVi": "Tiệm em luôn muốn sửa chữa cho thật chuẩn để chị hài lòng."
+        }
+      ],
+      "practicalTips": [
+        "Không bao giờ trả lời \"That is normal\" (Cái đó bình thường mà) khi khách đang chê, vì câu đó nghe như cãi tay đôi.",
+        "Khi khách chỉ vào móng lỗi, hãy gật đầu nhẹ và nói \"I see what you mean\" (Em hiểu ý chị rồi).",
+        "Đưa ngón tay khách lại gần đèn chiếu sáng để cùng nhìn rõ, chứng minh sự minh bạch và chuyên nghiệp."
+      ],
+      "quiz": [
+        {
+          "id": "q1-1",
+          "situation": "Khách vừa bực bội nói: \"You did my nails too fast, the polish looks clumpy!\" Bạn nên đáp lại câu nào trước tiên?",
+          "question": "Câu mở đầu đúng mực và hạ hỏa khách nhanh nhất là:",
+          "options": [
+            "It's not clumpy, that's just the builder gel.",
+            "You're right, I'm sorry. I apologize, I was going too fast.",
+            "You should have told me earlier before the top coat.",
+            "Can you hurry up because my next client is here?"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nhận lỗi chân thành và lập tức (\"You're right, I'm sorry\") giúp khách hạ hỏa và tạo không khí xây dựng."
+        },
+        {
+          "id": "q1-2",
+          "situation": "Bạn muốn giải tỏa nỗi lo bị tính tiền khi làm lại ngón móng lỗi cho khách:",
+          "question": "Bạn nói câu nào chuẩn xác?",
+          "options": [
+            "It will be five dollars more.",
+            "You have to tip me more for this.",
+            "Of course, there's no extra charge for this.",
+            "Pay at the register first please."
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Of course, there's no extra charge for this\" là câu then chốt giúp khách thở phào nhẹ nhõm."
+        }
+      ],
+      "isPublished": true,
+      "publishedAt": "2026-10-17T11:08:49.986Z",
+      "updatedAt": "2026-10-17T11:08:49.986Z"
+    },
+    {
+      "id": "lesson-2",
+      "title": "Khách Báo Sưng, Đỏ, Nhiễm Trùng Sau Khi Làm",
+      "tagline": "Lắng nghe đồng cảm, ghi nhận thông tin, không đoán bệnh và khuyên đi bác sĩ",
+      "category": "safety_health",
+      "categoryNameVi": "An Toàn & Sức Khỏe",
+      "iconName": "ShieldAlert",
+      "badge": "Quan trọng",
+      "difficulty": "Trung cấp",
+      "estimatedMinutes": 9,
+      "summary": "Khi khách gọi điện báo ngón tay đau nhức, sưng tấy sau khi làm ở tiệm: Lắng nghe bình tĩnh, tuyệt đối không tự kết luận hay khuyên bôi thuốc gì (vì thợ không phải bác sĩ), ghi lại hồ sơ và khuyên khách đi bác sĩ hoặc Urgent Care nếu cần.",
+      "culturalNote": "Tại Mỹ, luật pháp về y tế và thẩm mỹ (State Board) rất nghiêm ngặt. Thợ nail không bao giờ được kê đơn thuốc hay chẩn đoán bệnh. Khuyên khách đi khám bác sĩ vừa là giải pháp an toàn nhất cho khách, vừa bảo vệ tiệm khỏi rắc rối pháp lý.",
+      "dialogue": [
+        {
+          "id": "d2-1",
+          "speaker": "client",
+          "english": "Hi, I got my nails done at your salon two days ago, and now my index finger is really swollen and red! It hurts when I touch it.",
+          "vietnamese": "Chào tiệm, hai ngày trước tôi làm móng ở tiệm, giờ ngón trỏ bị sưng đỏ lên rồi! Đụng vào đau lắm."
+        },
+        {
+          "id": "d2-2",
+          "speaker": "tech",
+          "english": "I'm so sorry to hear that. Thank you for letting us know right away.",
+          "vietnamese": "Em rất tiếc khi nghe tin này. Cảm ơn chị đã gọi báo ngay cho tiệm biết.",
+          "tip": "Mở đầu bằng sự đồng cảm và cảm ơn khách vì đã báo sớm."
+        },
+        {
+          "id": "d2-3",
+          "speaker": "tech",
+          "english": "Can you tell me which finger it is and when you first noticed it? Is it swollen, warm to the touch, or is there any pus?",
+          "vietnamese": "Chị cho em hỏi ngón nào và chị bắt đầu thấy từ khi nào ạ? Chỗ đó có sưng nhiều, sờ vào thấy nóng ấm hay có mủ không chị?",
+          "tip": "Hỏi để ghi nhận triệu chứng, không kết luận bệnh."
+        },
+        {
+          "id": "d2-4",
+          "speaker": "client",
+          "english": "It's my right index finger. It started yesterday and feels throbbing. What cream should I put on it?",
+          "vietnamese": "Ngón trỏ tay phải. Bắt đầu từ hôm qua và thấy giật giật. Tôi nên bôi thuốc gì bây giờ?"
+        },
+        {
+          "id": "d2-5",
+          "speaker": "tech",
+          "english": "We're not doctors, so we don't want to guess what it is or recommend medications. Do you have a fever, or is the redness spreading?",
+          "vietnamese": "Dạ tụi em không phải bác sĩ nên không dám đoán hay tự ý khuyên dùng thuốc. Chị có bị sốt không, hay vết đỏ có đang lan rộng ra không ạ?",
+          "tip": "Cực kỳ quan trọng: Luôn từ chối khuyên thuốc và hỏi dấu hiệu sốt/lan rộng."
+        },
+        {
+          "id": "d2-6",
+          "speaker": "tech",
+          "english": "I'd really recommend seeing a doctor as soon as possible, or having urgent care take a look at it today.",
+          "vietnamese": "Em thật lòng khuyên chị nên đi bác sĩ càng sớm càng tốt, hoặc ghé phòng khám Urgent Care khám ngay hôm nay ạ."
+        },
+        {
+          "id": "d2-7",
+          "speaker": "tech",
+          "english": "Let me write down your name, the date of your visit, and who did your nails. Would you mind texting us a photo so we have it on file?",
+          "vietnamese": "Để em ghi lại tên chị, ngày chị ghé làm và thợ nào đã phục vụ chị. Chị nhắn giúp tiệm một tấm hình qua tin nhắn để lưu vào hồ sơ nhé."
+        },
+        {
+          "id": "d2-8",
+          "speaker": "tech",
+          "english": "You're also welcome to stop by so our manager can see it in person. I'll give you a call tomorrow to check how you're doing.",
+          "vietnamese": "Chị cũng có thể ghé tiệm để quản lý xem trực tiếp. Ngày mai em sẽ gọi lại hỏi thăm tình hình của chị nhé.",
+          "tip": "Hẹn gọi lại hỏi thăm thể hiện tinh thần trách nhiệm cao độ."
+        }
+      ],
+      "keyPhrases": [
+        {
+          "id": "kp2-1",
+          "english": "I'm so sorry to hear that. Thank you for letting us know right away.",
+          "vietnamese": "Em rất tiếc khi nghe tin này. Cảm ơn chị đã báo ngay cho tiệm.",
+          "context": "Câu mở đầu chuẩn mực khi khách gọi báo đau/sưng."
+        },
+        {
+          "id": "kp2-2",
+          "english": "Is it swollen, warm to the touch, or is there any pus?",
+          "vietnamese": "Chỗ đó có sưng, sờ vào thấy nóng ấm hay có mủ không ạ?",
+          "context": "Hỏi thăm các triệu chứng lâm sàng quan trọng."
+        },
+        {
+          "id": "kp2-3",
+          "english": "We're not doctors, so we don't want to guess what it is.",
+          "vietnamese": "Tụi em không phải bác sĩ nên không dám đoán bệnh.",
+          "context": "Từ chối tư vấn thuốc để tránh rủi ro trách nhiệm."
+        },
+        {
+          "id": "kp2-4",
+          "english": "Please have a doctor or urgent care take a look at it today.",
+          "vietnamese": "Chị vui lòng nhờ bác sĩ hoặc ghé Urgent Care khám hôm nay nhé.",
+          "context": "Lời khuyên an toàn và có trách nhiệm nhất."
+        },
+        {
+          "id": "kp2-5",
+          "english": "I'll give you a call tomorrow to check how you're doing.",
+          "vietnamese": "Ngày mai em sẽ gọi lại hỏi thăm xem chị thấy thế nào.",
+          "context": "Chăm sóc sau sự cố để giữ vững niềm tin."
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "v2-1",
+          "word": "Swollen",
+          "phonetic": "/ˈswoʊlən/",
+          "meaning": "Bị sưng, phồng to lên",
+          "exampleEn": "My cuticle is swollen and red.",
+          "exampleVi": "Khóe da của tôi bị sưng và đỏ lên."
+        },
+        {
+          "id": "v2-2",
+          "word": "Pus",
+          "phonetic": "/pʌs/",
+          "meaning": "Mủ (ở vết thương nhiễm trùng)",
+          "exampleEn": "Is there any pus coming out from under the nail?",
+          "exampleVi": "Có mủ chảy ra từ dưới móng không chị?"
+        },
+        {
+          "id": "v2-3",
+          "word": "Warm to the touch",
+          "phonetic": "/wɔːrm tuː ðə tʌtʃ/",
+          "meaning": "Sờ vào thấy nóng hổi (dấu hiệu viêm)",
+          "exampleEn": "If the area is warm to the touch, see a doctor.",
+          "exampleVi": "Nếu sờ vào thấy nóng ấm, hãy đi khám bác sĩ."
+        },
+        {
+          "id": "v2-4",
+          "word": "Urgent Care",
+          "phonetic": "/ˈɜːrdʒənt kɛr/",
+          "meaning": "Phòng khám đa khoa khẩn cấp tại Mỹ",
+          "exampleEn": "You can walk into an urgent care clinic right now.",
+          "exampleVi": "Chị có thể ghé ngay một phòng khám Urgent Care lúc này."
+        },
+        {
+          "id": "v2-5",
+          "word": "Have on file",
+          "phonetic": "/hæv ɒn faɪl/",
+          "meaning": "Lưu vào hồ sơ lưu trữ của tiệm",
+          "exampleEn": "Please send a photo so we have it on file.",
+          "exampleVi": "Chị gửi tấm hình để tiệm lưu lại trong hồ sơ theo dõi nhé."
+        }
+      ],
+      "practicalTips": [
+        "Không bao giờ bảo khách: \"Just put Neosporin on it\" hay tự ý tư vấn kháng sinh. Bạn có thể bị kiện nếu khách dị ứng.",
+        "Ghi chép chính xác: Tên thợ làm, kềm/dụng cụ sử dụng, thời gian khử trùng autoclave.",
+        "Giữ thái độ điềm tĩnh, ấm áp, tránh dùng từ mang tính phòng thủ như \"It's not our fault\"."
+      ],
+      "quiz": [
+        {
+          "id": "q2-1",
+          "situation": "Khách hỏi: \"My finger is swollen, what antibiotic cream should I buy at CVS?\" Bạn nên trả lời ra sao?",
+          "question": "Cách đáp ứng đúng quy định an toàn là:",
+          "options": [
+            "Go buy Neosporin or alcohol and soak it every day.",
+            "We're not doctors, so we don't want to guess. I'd really recommend seeing a doctor or urgent care.",
+            "Just squeeze the pus out and put salt water on it.",
+            "It is nothing serious, just wait two more weeks."
+          ],
+          "correctIndex": 1,
+          "explanation": "Thợ nail không có bằng y khoa nên luôn từ chối kê thuốc và khuyên đi khám bác sĩ hoặc Urgent Care."
+        }
+      ],
+      "isPublished": true,
+      "publishedAt": "2026-10-17T11:08:49.986Z",
+      "updatedAt": "2026-10-17T11:08:49.986Z"
+    },
+    {
+      "id": "lesson-3",
+      "title": "Khách Lo Đèn UV/LED Hại Da Tay",
+      "tagline": "Giải thích khoa học, giới thiệu găng chống UV và kem chống nắng chu đáo",
+      "category": "consultation",
+      "categoryNameVi": "Tư Vấn Chuyên Nghiệp",
+      "iconName": "Sun",
+      "badge": "Phổ biến",
+      "difficulty": "Cơ bản",
+      "estimatedMinutes": 7,
+      "summary": "Nhiều khách Mỹ đọc tin trên mạng lo đèn hơ móng gây ung thư da hoặc lão hóa da tay. Cách trả lời khoa học: Công nhận thắc mắc của khách, giải thích đèn LED hơ nhanh 30-60 giây, cung cấp găng tay chống tia UV hở ngón hoặc gợi ý sơn thường/dip powder không cần đèn.",
+      "culturalNote": "Khách hàng ở Mỹ rất chú trọng bảo vệ sức khỏe làn da (skin wellness). Khi bạn giải thích khoa học và chủ động chuẩn bị găng chống UV hoặc kem chống nắng, khách sẽ đánh giá tiệm bạn ở đẳng cấp chuyên nghiệp vượt trội.",
+      "dialogue": [
+        {
+          "id": "d3-1",
+          "speaker": "client",
+          "english": "Is this UV lamp safe for my skin? I read online that it might cause premature aging or skin damage.",
+          "vietnamese": "Cái đèn UV này có an toàn cho da không em? Chị đọc trên mạng thấy bảo nó có thể làm lão hóa da sớm hoặc hại da."
+        },
+        {
+          "id": "d3-2",
+          "speaker": "tech",
+          "english": "That's a great question, a lot of our clients ask about that! This is an LED lamp, and each cure only takes about thirty to sixty seconds.",
+          "vietnamese": "Chị hỏi hay lắm, nhiều khách bên em cũng thắc mắc điều này! Đây là đèn LED công nghệ mới, mỗi lần hơ chỉ khoảng ba mươi đến sáu mươi giây thôi chị.",
+          "tip": "Khen câu hỏi hay để khách thấy lo lắng của họ là hoàn toàn chính đáng."
+        },
+        {
+          "id": "d3-3",
+          "speaker": "tech",
+          "english": "The exposure is pretty short, but it's always smart to protect your skin. We have UV-protective gloves with the fingertips cut off, so only your nails are under the light.",
+          "vietnamese": "Thời gian tiếp xúc khá ngắn, nhưng bảo vệ da thêm thì lúc nào cũng tốt hơn. Tiệm em có sẵn găng chống UV hở đầu ngón, chỉ có móng là nằm dưới đèn thôi.",
+          "tip": "Giới thiệu găng hở ngón (fingerless UV gloves)."
+        },
+        {
+          "id": "d3-4",
+          "speaker": "client",
+          "english": "Oh, really? That is fantastic! Can I wear those gloves today?",
+          "vietnamese": "Ủa có hả em? Tuyệt quá vậy! Hôm nay chị đeo găng đó được không?"
+        },
+        {
+          "id": "d3-5",
+          "speaker": "tech",
+          "english": "Absolutely, here they are! Would you like some sunscreen on the back of your hands before we start as well?",
+          "vietnamese": "Dạ được chứ chị, găng đây ạ! Chị có muốn em thoa thêm chút kem chống nắng lên mu bàn tay trước khi làm luôn không?"
+        },
+        {
+          "id": "d3-6",
+          "speaker": "tech",
+          "english": "While we cure, if you feel any heat, just pull your hand out for a few seconds and let me know.",
+          "vietnamese": "Trong lúc hơ đèn, nếu thấy nóng, chị cứ rút tay ra vài giây rồi báo em nhé."
+        },
+        {
+          "id": "d3-7",
+          "speaker": "tech",
+          "english": "And if you'd ever rather skip the lamp completely, we also offer dip powder or regular polish which don't need the lamp at all.",
+          "vietnamese": "Và nếu sau này chị không muốn hơ đèn nữa, bên em có làm dip powder hoặc sơn thường, hoàn toàn không cần dùng đèn luôn chị.",
+          "tip": "Đưa giải pháp thay thế (dip powder, regular polish) tôn trọng sở thích của khách."
+        }
+      ],
+      "keyPhrases": [
+        {
+          "id": "kp3-1",
+          "english": "That's a great question, a lot of our clients ask about that.",
+          "vietnamese": "Câu hỏi hay quá, rất nhiều khách cũng hỏi em câu này.",
+          "context": "Tạo thiện cảm và đồng cảm với nỗi lo của khách."
+        },
+        {
+          "id": "kp3-2",
+          "english": "This is an LED lamp, and each cure only takes thirty to sixty seconds.",
+          "vietnamese": "Đây là đèn LED, mỗi lần hơ chỉ khoảng ba mươi đến sáu mươi giây.",
+          "context": "Cung cấp thông tin kỹ thuật rõ ràng."
+        },
+        {
+          "id": "kp3-3",
+          "english": "We have UV-protective gloves with the fingertips cut off.",
+          "vietnamese": "Tiệm em có găng tay chống UV hở đầu ngón tay.",
+          "context": "Giới thiệu giải pháp bảo vệ làn da tay."
+        },
+        {
+          "id": "kp3-4",
+          "english": "If you feel any heat, just pull your hand out and let me know.",
+          "vietnamese": "Nếu thấy nóng rát, chị cứ rút tay ra rồi báo em nha.",
+          "context": "Dặn dò an toàn khi hơ móng."
+        },
+        {
+          "id": "kp3-5",
+          "english": "If you'd rather skip the lamp, we can do dip powder instead.",
+          "vietnamese": "Nếu chị không muốn hơ đèn, mình làm dip powder thay thế cũng rất đẹp.",
+          "context": "Đưa ra dịch vụ thay thế không dùng đèn."
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "v3-1",
+          "word": "UV-protective gloves",
+          "phonetic": "/ˌjuːˈviː prəˈtɛktɪv ɡlʌvz/",
+          "meaning": "Găng tay chống tia cực tím UV",
+          "exampleEn": "You can wear UV-protective gloves during the cure.",
+          "exampleVi": "Chị có thể đeo găng chống UV trong lúc hơ đèn."
+        },
+        {
+          "id": "v3-2",
+          "word": "Cure",
+          "phonetic": "/kjʊr/",
+          "meaning": "Hơ khô sơn gel dưới đèn",
+          "exampleEn": "Each coat cures in sixty seconds.",
+          "exampleVi": "Mỗi lớp sơn hơ khô trong vòng 60 giây."
+        },
+        {
+          "id": "v3-3",
+          "word": "Fingertips cut off",
+          "phonetic": "/ˈfɪŋɡərtɪps kʌt ɔːf/",
+          "meaning": "Hở/cắt cụt đầu ngón tay",
+          "exampleEn": "The gloves have fingertips cut off so only nails are exposed.",
+          "exampleVi": "Găng tay được hở đầu ngón để chỉ lộ phần móng ra ngoài."
+        },
+        {
+          "id": "v3-4",
+          "word": "Broad-spectrum sunscreen",
+          "phonetic": "/brɔːd ˈspɛktrəm ˈsʌnˌskriːn/",
+          "meaning": "Kem chống nắng phổ rộng (chống cả tia UVA và UVB)",
+          "exampleEn": "Apply broad-spectrum sunscreen before your appointment.",
+          "exampleVi": "Thoa kem chống nắng phổ rộng trước khi đến lịch hẹn."
+        },
+        {
+          "id": "v3-5",
+          "word": "Skip the lamp",
+          "phonetic": "/skɪp ðə læmp/",
+          "meaning": "Không cần hơ đèn, bỏ qua bước đèn",
+          "exampleEn": "Dip powder allows you to skip the lamp completely.",
+          "exampleVi": "Bột nhúng dip cho phép chị bỏ qua hoàn toàn bước hơ đèn."
+        }
+      ],
+      "practicalTips": [
+        "Không nên nói \"It is 100% harmless\" vì khách có thể cảm thấy bạn phủ nhận nghiên cứu da liễu.",
+        "Luôn chuẩn bị sẵn một hộp găng chống UV sạch sẽ trên bàn làm việc.",
+        "Nhắc khách về hiện tượng gel co lại gây nóng (heat spike) để khách không giật mình."
+      ],
+      "quiz": [
+        {
+          "id": "q3-1",
+          "situation": "Khách e ngại ánh sáng đèn hơ gel làm sạm da tay. Giải pháp nào bạn nên đề xuất ngay?",
+          "question": "Câu trả lời chu đáo nhất:",
+          "options": [
+            "Just close your eyes and do not look at it.",
+            "You are worrying too much, everyone does it.",
+            "We have UV-protective fingerless gloves and sunscreen you can wear while it cures.",
+            "If you are scared, do not do your nails."
+          ],
+          "correctIndex": 2,
+          "explanation": "Cung cấp giải pháp cụ thể như găng tay chống UV và kem chống nắng giúp khách yên tâm và thể hiện sự chuyên nghiệp."
+        }
+      ],
+      "isPublished": true,
+      "publishedAt": "2026-10-17T11:08:49.986Z",
+      "updatedAt": "2026-10-17T11:08:49.986Z"
+    },
+    {
+      "id": "lesson-4",
+      "title": "Thợ Mới Tự Giới Thiệu Với Khách Lần Đầu",
+      "tagline": "Giao tiếp tự tin, tạo sự tin tưởng về tay nghề và xây dựng khách quen từ buổi đầu",
+      "category": "customer_care",
+      "categoryNameVi": "Chăm Sóc Khách Hàng",
+      "iconName": "UserCheck",
+      "badge": "Xây dựng tệp khách",
+      "difficulty": "Cơ bản",
+      "estimatedMinutes": 8,
+      "summary": "Khi bạn là thợ mới vào tiệm hoặc lần đầu phục vụ khách lạ: Chào hỏi niềm nở, giới thiệu tên, chia sẻ số năm kinh nghiệm, hỏi thói quen dáng móng và kết thúc bằng việc gửi namecard để book lịch lần sau.",
+      "culturalNote": "Người Mỹ đánh giá rất cao tính chủ động và chuyên nghiệp. Một người thợ biết xưng tên, tự tin nói về sở trường của mình và lắng nghe khách sẽ nhận được nhiều tiền tip hơn và dễ dàng xây dựng tệp khách ruột (regular clients).",
+      "dialogue": [
+        {
+          "id": "d4-1",
+          "speaker": "tech",
+          "english": "Hi! My name is Lily, and I'll be taking care of you today. It's really nice to meet you!",
+          "vietnamese": "Chào chị! Em tên là Lily, hôm nay em sẽ làm móng cho chị ạ. Rất vui được gặp chị!",
+          "tip": "Thay tên bạn vào chữ Lily, nụ cười rạng rỡ và bắt mắt thân thiện."
+        },
+        {
+          "id": "d4-2",
+          "speaker": "client",
+          "english": "Nice to meet you, Lily! Are you new here? I haven't seen you before.",
+          "vietnamese": "Chào Lily! Em mới vào tiệm hả? Trước đây chị chưa thấy em."
+        },
+        {
+          "id": "d4-3",
+          "speaker": "tech",
+          "english": "Yes, I just joined the team here! But I've been doing nails for about eight years. I specialize in structured gel manicures and detailed nail art.",
+          "vietnamese": "Dạ vâng, em mới gia nhập tiệm mình! Nhưng em làm nghề nail được khoảng tám năm rồi chị. Em chuyên về structured gel và vẽ họa tiết móng tỉ mỉ.",
+          "tip": "Nêu số năm làm nghề và thế mạnh chuyên môn để khách tin tưởng ngay."
+        },
+        {
+          "id": "d4-4",
+          "speaker": "tech",
+          "english": "What do you usually get done? Do you like your shape more rounded or more square?",
+          "vietnamese": "Bình thường chị hay làm dịch vụ gì ạ? Chị thích form móng hơi tròn hay vuông hơn?"
+        },
+        {
+          "id": "d4-5",
+          "speaker": "client",
+          "english": "I usually do dip on a squoval shape. Not too long, because I work on a computer all day.",
+          "vietnamese": "Chị hay làm dip dáng vuông bầu (squoval). Đừng dài quá nha, vì chị gõ máy tính cả ngày."
+        },
+        {
+          "id": "d4-6",
+          "speaker": "tech",
+          "english": "Got it! Since it's our first time together, please tell me if you like anything done a certain way. And how's the pressure? Is that okay?",
+          "vietnamese": "Em hiểu rồi! Vì đây là lần đầu em phục vụ chị, chị thích kiểu nào hay có thói quen gì cứ nói em nhé. Lực tay em làm thế này có vừa không chị?"
+        },
+        {
+          "id": "d4-7",
+          "speaker": "tech",
+          "english": "Here's my card if you'd like to book with me next time. I'd love to see you again!",
+          "vietnamese": "Đây là danh thiếp của em, nếu lần sau chị muốn đặt lịch với em nhé. Em rất mong được gặp lại chị!",
+          "tip": "Trao card trước khi thanh toán để biến khách vãng lai thành khách quen."
+        }
+      ],
+      "keyPhrases": [
+        {
+          "id": "kp4-1",
+          "english": "Hi, I'm Lily. I'll be your tech today.",
+          "vietnamese": "Chào chị, em là Lily. Hôm nay em sẽ là thợ làm cho chị.",
+          "context": "Câu chào tự giới thiệu ngắn gọn, chuẩn Mỹ."
+        },
+        {
+          "id": "kp4-2",
+          "english": "I've been doing nails for about eight years.",
+          "vietnamese": "Em làm nghề nail được khoảng tám năm rồi.",
+          "context": "Tạo dựng uy tín tay nghề ngay phút đầu."
+        },
+        {
+          "id": "kp4-3",
+          "english": "I specialize in structured gel manicures and hand-painted nail art.",
+          "vietnamese": "Em chuyên về móng structured gel và vẽ móng bằng tay.",
+          "context": "Giới thiệu điểm mạnh nổi bật của bản thân."
+        },
+        {
+          "id": "kp4-4",
+          "english": "Since it's our first time together, please tell me if you like anything done a certain way.",
+          "vietnamese": "Vì đây là lần đầu làm cùng nhau, chị thích làm thế nào cứ dặn em nhé.",
+          "context": "Tạo cảm giác được tôn trọng và chu đáo."
+        },
+        {
+          "id": "kp4-5",
+          "english": "Here's my card if you want to book with me next time.",
+          "vietnamese": "Đây là card của em nếu lần sau chị muốn đặt hẹn với em nhé.",
+          "context": "Chủ động phát triển khách ruột."
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "v4-1",
+          "word": "Tech (Technician)",
+          "phonetic": "/tɛk/",
+          "meaning": "Thợ làm móng / kỹ thuật viên nail",
+          "exampleEn": "I'll be your nail tech today.",
+          "exampleVi": "Hôm nay em sẽ là thợ nail phục vụ chị."
+        },
+        {
+          "id": "v4-2",
+          "word": "Specialize in",
+          "phonetic": "/ˈspɛʃəˌlaɪz ɪn/",
+          "meaning": "Chuyên sâu về / thế mạnh đặc biệt",
+          "exampleEn": "She specializes in Russian manicures.",
+          "exampleVi": "Cô ấy chuyên sâu về kỹ thuật Russian manicure."
+        },
+        {
+          "id": "v4-3",
+          "word": "Squoval",
+          "phonetic": "/ˈskwoʊvəl/",
+          "meaning": "Dáng móng vuông bầu (kết hợp square và oval)",
+          "exampleEn": "Squoval shape is very comfortable for daily work.",
+          "exampleVi": "Form móng vuông bầu rất thoải mái cho công việc hằng ngày."
+        },
+        {
+          "id": "v4-4",
+          "word": "Structured gel",
+          "phonetic": "/ˈstrʌktʃərd dʒɛl/",
+          "meaning": "Gel gia cố tạo độ phồng chuẩn (builder gel overlay)",
+          "exampleEn": "Structured gel gives strength to natural nails.",
+          "exampleVi": "Structured gel giúp móng thật chắc khỏe và dày dặn hơn."
+        },
+        {
+          "id": "v4-5",
+          "word": "Regular client",
+          "phonetic": "/ˈrɛɡjələr ˈklaɪənt/",
+          "meaning": "Khách quen / khách ruột thường xuyên",
+          "exampleEn": "She has been my regular client for three years.",
+          "exampleVi": "Chị ấy là khách quen của em suốt ba năm nay."
+        }
+      ],
+      "practicalTips": [
+        "Ghi nhớ tên khách và sở thích màu sắc vào sổ tay hoặc điện thoại sau ca làm.",
+        "Hỏi thăm lực tay \"How's the pressure?\" ở bước đầu tiên để khách thấy thoải mái.",
+        "Luôn để sẵn namecard cá nhân ở bàn hoặc quầy thanh toán."
+      ],
+      "quiz": [
+        {
+          "id": "q4-1",
+          "situation": "Bạn là thợ mới, muốn giới thiệu bản thân lịch sự và tạo niềm tin ngay khi khách vừa ngồi vào bàn:",
+          "question": "Bạn nên nói câu nào?",
+          "options": [
+            "Sit down and show me your hands.",
+            "Hi! My name is Lily, and I'll be taking care of you today. It's really nice to meet you!",
+            "I am new, so please do not complain if it is bad.",
+            "Do you have enough cash for a tip?"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Hi! My name is Lily, and I'll be taking care of you today...\" là cách mở đầu hoàn hảo, lịch thiệp và ấm áp."
+        }
+      ],
+      "isPublished": true,
+      "publishedAt": "2026-10-17T11:08:49.986Z",
+      "updatedAt": "2026-10-17T11:08:49.986Z"
+    },
+    {
+      "id": "lesson-5",
+      "title": "Khách Đòi Cạo Gót Bằng Dao (Credo Blade)",
+      "tagline": "Giải thích quy định State Board, từ chối an toàn và cam kết gót chân vẫn mềm mịn",
+      "category": "safety_health",
+      "categoryNameVi": "An Toàn & Sức Khỏe",
+      "iconName": "AlertTriangle",
+      "badge": "Quy định State Board",
+      "difficulty": "Trung cấp",
+      "estimatedMinutes": 8,
+      "summary": "Khách có gót chân chai dày đòi lấy dao cạo (credo blade) cho nhanh. Dao cạo bị cấm tại hầu hết các bang ở Mỹ vì nguy cơ cắt rách da và nhiễm trùng. Cách từ chối: Nêu rõ quy định State Board, dùng thuốc làm mềm da chai (callus remover) và dũa chân an toàn.",
+      "culturalNote": "Thanh tra State Board tại Mỹ kiểm tra tiệm nail rất gắt gao. Sử dụng Credo Blade có thể bị phạt hàng nghìn đô và tước bằng nail. Khách Mỹ rất tôn trọng luật lệ và an toàn một khi bạn giải thích rõ ràng.",
+      "dialogue": [
+        {
+          "id": "d5-1",
+          "speaker": "client",
+          "english": "Can you use the razor blade on my heels today? My calluses are really thick and a regular buffer never cuts it.",
+          "vietnamese": "Hôm nay em lấy dao cạo gót chân cho chị được không? Da chai chị dày lắm, dũa thường không ăn thua."
+        },
+        {
+          "id": "d5-2",
+          "speaker": "tech",
+          "english": "I'm sorry, we're not allowed to use razors or credo blades on your feet. It's against State Board rules.",
+          "vietnamese": "Em xin lỗi chị, bên em không được phép dùng dao cạo hay credo blade cho chân của chị. Quy định của State Board cấm dùng loại này ạ.",
+          "tip": "Khẳng định \"not allowed\" và \"against State Board rules\", không nói do mình lười."
+        },
+        {
+          "id": "d5-3",
+          "speaker": "client",
+          "english": "Really? Other salons used to do it for me all the time.",
+          "vietnamese": "Thật á? Mấy tiệm khác hồi trước vẫn cạo cho chị hoài mà."
+        },
+        {
+          "id": "d5-4",
+          "speaker": "tech",
+          "english": "Yes, because a blade can easily cut the live skin and lead to serious infection. But don't worry, I promise your heels will still feel super soft!",
+          "vietnamese": "Dạ vì lưỡi dao rất dễ cứa vào phần da non và dẫn đến nhiễm trùng nguy hiểm. Nhưng chị đừng lo, em hứa là gót chân chị vẫn sẽ mịn màng lắm!"
+        },
+        {
+          "id": "d5-5",
+          "speaker": "tech",
+          "english": "I'll put on a callus remover to soften the skin first, then gently file it down with a disposable foot file.",
+          "vietnamese": "Em sẽ thoa dung dịch làm mềm da chai trước, rồi dùng dũa chân dùng một lần để chà mịn nhẹ nhàng cho chị."
+        },
+        {
+          "id": "d5-6",
+          "speaker": "tech",
+          "english": "Taking off too much at once can actually make your heels sore, and the callus often grows back thicker. Doing it gradually is much healthier.",
+          "vietnamese": "Cạo đi quá nhiều một lúc có thể làm gót chân chị bị thốn rát khi đi lại, mà da chai còn dễ mọc lại dày hơn nữa. Làm từ từ sẽ tốt cho da hơn nhiều ạ.",
+          "tip": "Giải thích nguyên nhân sinh học: cạo sâu da chai sẽ mọc lại dày hơn."
+        },
+        {
+          "id": "d5-7",
+          "speaker": "tech",
+          "english": "Feel that! Run your hand over your heel now. How does that feel to you?",
+          "vietnamese": "Chị sờ thử xem nè! Chị vuốt tay qua gót chân chị thấy sao rồi?"
+        },
+        {
+          "id": "d5-8",
+          "speaker": "client",
+          "english": "Wow, that feels baby soft! You were totally right, thank you so much.",
+          "vietnamese": "Oa, mềm như da em bé vậy! Em nói hoàn toàn đúng, cảm ơn em nhiều nha."
+        }
+      ],
+      "keyPhrases": [
+        {
+          "id": "kp5-1",
+          "english": "We're not allowed to use razors or credo blades on your feet.",
+          "vietnamese": "Tụi em không được phép dùng dao cạo gót chân cho khách.",
+          "context": "Từ chối lịch sự dựa trên quy định."
+        },
+        {
+          "id": "kp5-2",
+          "english": "It's against State Board rules because it can lead to an infection.",
+          "vietnamese": "Quy định State Board cấm vì dao dễ gây nhiễm trùng.",
+          "context": "Lý do pháp lý và an toàn sức khỏe."
+        },
+        {
+          "id": "kp5-3",
+          "english": "I promise your heels will still feel super soft.",
+          "vietnamese": "Em hứa gót chân chị vẫn sẽ cực kỳ mềm mịn.",
+          "context": "Cam kết chất lượng dịch vụ."
+        },
+        {
+          "id": "kp5-4",
+          "english": "Taking off too much at once can make your heels sore.",
+          "vietnamese": "Lấy đi quá nhiều da cùng lúc có thể làm gót chân bị đau thốn.",
+          "context": "Tư vấn chăm sóc da khoa học."
+        },
+        {
+          "id": "kp5-5",
+          "english": "Run your hand over your heel. How does that feel?",
+          "vietnamese": "Chị sờ thử gót chân xem, chị thấy sao?",
+          "context": "Mời khách tự kiểm chứng kết quả."
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "v5-1",
+          "word": "Credo blade",
+          "phonetic": "/ˈkriːdoʊ bleɪd/",
+          "meaning": "Dao cạo gót chân / dao bào da chai",
+          "exampleEn": "Credo blades are illegal in nail salons across many states.",
+          "exampleVi": "Dao cạo credo blade bị cấm ở tiệm nail tại nhiều tiểu bang."
+        },
+        {
+          "id": "v5-2",
+          "word": "Callus remover",
+          "phonetic": "/ˈkæləs rɪˈmuːvər/",
+          "meaning": "Thuốc / gel làm mềm da chai gót chân",
+          "exampleEn": "Apply callus remover for three minutes before filing.",
+          "exampleVi": "Thoa thuốc làm mềm da chai khoảng ba phút trước khi dũa."
+        },
+        {
+          "id": "v5-3",
+          "word": "Foot file",
+          "phonetic": "/fʊt faɪl/",
+          "meaning": "Cây chà gót chân / dũa chân",
+          "exampleEn": "We use a sanitized foot file for every client.",
+          "exampleVi": "Bên em dùng cây chà chân được khử trùng sạch sẽ cho mỗi khách."
+        },
+        {
+          "id": "v5-4",
+          "word": "State board rules",
+          "phonetic": "/steɪt bɔːrd ruːlz/",
+          "meaning": "Quy định của Hội đồng Thẩm mỹ Tiểu bang",
+          "exampleEn": "We strictly follow all State Board rules for your safety.",
+          "exampleVi": "Tụi em tuân thủ nghiêm ngặt quy định State Board để bảo vệ an toàn cho chị."
+        },
+        {
+          "id": "v5-5",
+          "word": "Sore",
+          "phonetic": "/sɔːr/",
+          "meaning": "Bị đau, rát, thốn",
+          "exampleEn": "Taking off too much skin can leave your heels sore.",
+          "exampleVi": "Lấy quá nhiều da có thể khiến gót chân chị bị đau thốn."
+        }
+      ],
+      "practicalTips": [
+        "Không bao giờ giấu dao cạo lén lút trong hộc bàn khi khách đòi, rủi ro bị thanh tra đột xuất rất lớn.",
+        "Thoa Callus Remover và ủ khăn ấm 3-5 phút trước khi chà gót sẽ cho kết quả mềm mại hơn cả dùng dao.",
+        "Dặn khách dưỡng ẩm ban đêm: \"Put on some foot cream and wear socks to bed\"."
+      ],
+      "quiz": [
+        {
+          "id": "q5-1",
+          "situation": "Khách năn nỉ: \"Just use the blade quickly, I won't tell anyone!\" Bạn nên trả lời sao?",
+          "question": "Câu trả lời chuẩn mực nghề nghiệp:",
+          "options": [
+            "Okay, but give me ten dollars cash under the table.",
+            "I'm sorry, it's against State Board safety rules and can cause infection. I promise my callus treatment will make your heels just as smooth!",
+            "No, go away.",
+            "State board is stupid, let me do it."
+          ],
+          "correctIndex": 1,
+          "explanation": "Khẳng định quy định an toàn của State Board và cam kết phương pháp callus treatment vẫn đem lại kết quả mềm mịn xuất sắc."
+        }
+      ],
+      "isPublished": true,
+      "publishedAt": "2026-10-17T11:08:49.986Z",
+      "updatedAt": "2026-10-17T11:08:49.986Z"
+    },
+    {
+      "id": "lesson-6",
+      "title": "Upsell Hand Spa Khi Làm Manicure",
+      "tagline": "Gợi ý tẩy tế bào chết, đắp mặt nạ và ủ sáp paraffin tăng thêm thu nhập tự nhiên",
+      "category": "upselling",
+      "categoryNameVi": "Upsell & Tăng Thu Nhập",
+      "iconName": "DollarSign",
+      "badge": "Tăng tip & income",
+      "difficulty": "Trung cấp",
+      "estimatedMinutes": 8,
+      "summary": "Cách quan sát da tay khô ráp của khách để gợi ý gói Hand Spa (tẩy tế bào chết exfoliating scrub, đắp mặt nạ khăn ấm mask, và ủ sáp paraffin). Báo giá và thời gian rõ ràng ($12, thêm 10 phút) để khách dễ dàng gật đầu.",
+      "culturalNote": "Khách Mỹ không thích cảm giác bị \"ép mua\" (hard selling), nhưng họ rất thích được \"chăm sóc chu đáo\" (caring consultation). Bắt đầu bằng sự quan tâm tới tình trạng da tay khô của khách sẽ giúp tỷ lệ đồng ý nâng cấp dịch vụ lên tới trên 80%.",
+      "dialogue": [
+        {
+          "id": "d6-1",
+          "speaker": "tech",
+          "english": "Your hands feel a little dry today. Have you been washing them a lot or using hand sanitizer?",
+          "vietnamese": "Da tay chị hôm nay hơi khô một chút. Dạo này chị có hay rửa tay nhiều hoặc dùng nước sát khuẩn không ạ?",
+          "tip": "Bắt đầu bằng sự quan tâm chân thành đến đôi tay của khách."
+        },
+        {
+          "id": "d6-2",
+          "speaker": "client",
+          "english": "Yes, with my job I wash my hands twenty times a day, so they get really cracked and rough.",
+          "vietnamese": "Đúng rồi em, công việc của chị phải rửa tay cả hai chục lần một ngày nên da khô nứt nẻ hết trơn."
+        },
+        {
+          "id": "d6-3",
+          "speaker": "tech",
+          "english": "We have a hand spa add-on that would really help with that! It starts with an exfoliating scrub to get rid of the dry skin.",
+          "vietnamese": "Bên em có gói hand spa thêm vào sẽ giúp đôi tay chị phục hồi nhiều lắm! Đầu tiên em sẽ tẩy tế bào chết để lấy đi lớp da khô sần."
+        },
+        {
+          "id": "d6-4",
+          "speaker": "tech",
+          "english": "Then I put on a hydrating mask with a warm towel, and finish with warm paraffin wax to lock in all the moisture. It feels so relaxing!",
+          "vietnamese": "Sau đó em đắp mặt nạ dưỡng ẩm với khăn ấm, rồi ủ sáp paraffin nóng để khóa ẩm sâu vào da. Cảm giác thư giãn cực kỳ luôn chị!",
+          "tip": "Tả cảm giác ấm áp và thư giãn (\"feels so relaxing\")."
+        },
+        {
+          "id": "d6-5",
+          "speaker": "client",
+          "english": "That sounds amazing! How much extra is it, and does it take a long time?",
+          "vietnamese": "Nghe thích quá! Thêm bao nhiêu tiền vậy em, và có mất nhiều thời gian không?"
+        },
+        {
+          "id": "d6-6",
+          "speaker": "tech",
+          "english": "It only adds about ten minutes, and it's just twelve dollars. Your hands will feel baby soft afterward!",
+          "vietnamese": "Dạ chỉ thêm khoảng mười phút thôi, và giá chỉ có mười hai đô. Làm xong tay chị sẽ mềm mướt như tay em bé liền!",
+          "tip": "Nêu con số rõ ràng: 10 phút, $12, kết quả \"baby soft\"."
+        },
+        {
+          "id": "d6-7",
+          "speaker": "client",
+          "english": "Let's definitely do it! I need some pampering today.",
+          "vietnamese": "Làm luôn đi em! Hôm nay chị cần được chiều chuộng bản thân một chút."
+        },
+        {
+          "id": "d6-8",
+          "speaker": "tech",
+          "english": "Is the wax too warm for you? Feel how soft that is now! You'll notice the difference right away.",
+          "vietnamese": "Sáp có nóng quá không chị? Chị sờ thử xem nè, mềm mịn chưa! Chị thấy khác biệt rõ ràng ngay lập tức luôn đúng không."
+        }
+      ],
+      "keyPhrases": [
+        {
+          "id": "kp6-1",
+          "english": "Your hands feel a little dry today. Have you been washing them a lot?",
+          "vietnamese": "Tay chị hôm nay hơi khô. Dạo này chị rửa tay nhiều hả?",
+          "context": "Mở lời tự nhiên bằng sự quan sát tinh tế."
+        },
+        {
+          "id": "kp6-2",
+          "english": "We have a hand spa add-on that would really help with that.",
+          "vietnamese": "Tiệm em có gói hand spa thêm vào sẽ giúp ích nhiều lắm.",
+          "context": "Gợi ý dịch vụ nâng cấp như một giải pháp."
+        },
+        {
+          "id": "kp6-3",
+          "english": "The paraffin wax locks in the moisture and feels so relaxing.",
+          "vietnamese": "Sáp paraffin giúp khóa ẩm và đem lại cảm giác rất thư giãn.",
+          "context": "Nêu lợi ích nổi bật của sáp nóng."
+        },
+        {
+          "id": "kp6-4",
+          "english": "It only adds about ten minutes, and it's just twelve dollars.",
+          "vietnamese": "Chỉ thêm khoảng mười phút và giá chỉ mười hai đô thôi.",
+          "context": "Báo thời gian và giá tiền ngắn gọn, nhẹ nhàng."
+        },
+        {
+          "id": "kp6-5",
+          "english": "Your hands will feel baby soft afterward.",
+          "vietnamese": "Làm xong tay chị sẽ mềm mại như da em bé.",
+          "context": "Hứa hẹn kết quả cụ thể, hấp dẫn."
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "v6-1",
+          "word": "Hand spa add-on",
+          "phonetic": "/hænd spɑː ˈæd ɒn/",
+          "meaning": "Dịch vụ spa tay làm kèm thêm",
+          "exampleEn": "Would you like to try our hand spa add-on today?",
+          "exampleVi": "Hôm nay chị có muốn thử gói spa tay làm kèm không?"
+        },
+        {
+          "id": "v6-2",
+          "word": "Exfoliating scrub",
+          "phonetic": "/ɛksˈfoʊlieɪtɪŋ skrʌb/",
+          "meaning": "Kem/muối tẩy tế bào chết",
+          "exampleEn": "The exfoliating scrub removes all dry and dead skin.",
+          "exampleVi": "Kem tẩy tế bào chết sẽ lấy đi toàn bộ phần da khô ráp."
+        },
+        {
+          "id": "v6-3",
+          "word": "Paraffin wax",
+          "phonetic": "/ˈpærəfɪn wæks/",
+          "meaning": "Sáp dưỡng ẩm nóng paraffin",
+          "exampleEn": "Warm paraffin wax is wonderful for winter dry hands.",
+          "exampleVi": "Sáp paraffin ấm rất tuyệt vời cho đôi tay khô vào mùa đông."
+        },
+        {
+          "id": "v6-4",
+          "word": "Lock in moisture",
+          "phonetic": "/lɒk ɪn ˈmɔɪstʃər/",
+          "meaning": "Khóa ẩm, giữ độ ẩm sâu trong da",
+          "exampleEn": "Cuticle oil helps lock in moisture after washing.",
+          "exampleVi": "Dầu cuticle giúp khóa ẩm sau khi rửa tay."
+        },
+        {
+          "id": "v6-5",
+          "word": "Baby soft",
+          "phonetic": "/ˈbeɪbi sɒft/",
+          "meaning": "Mềm mướt như da em bé",
+          "exampleEn": "Your heels will be baby soft.",
+          "exampleVi": "Gót chân của chị sẽ mềm mịn như da em bé."
+        }
+      ],
+      "practicalTips": [
+        "Dùng từ \"only\" hoặc \"just\" khi nói về giá: \"It's only twelve dollars\" giúp mức giá nghe nhẹ nhàng hơn.",
+        "Luôn kiểm tra nhiệt độ sáp trên cổ tay bạn hoặc hỏi khách \"Is the wax too warm for you?\".",
+        "Sau khi tháo paraffin, xoa nhẹ mu bàn tay khách và nói \"Feel how soft that is!\" để chốt trải nghiệm hài lòng."
+      ],
+      "quiz": [
+        {
+          "id": "q6-1",
+          "situation": "Bạn muốn upsell gói sáp paraffin cho khách có da tay khô nhưng không muốn khách cảm thấy bị ép mua:",
+          "question": "Cách mở lời tinh tế nhất là gì?",
+          "options": [
+            "You have to buy the paraffin package, your hands look terrible.",
+            "Our salon has a paraffin promotion, buy it now.",
+            "Your hands feel a little dry today. We have a relaxing warm paraffin treatment that locks in moisture for just $12.",
+            "I am going to add $20 to your bill for hand spa."
+          ],
+          "correctIndex": 2,
+          "explanation": "Nhận xét tình trạng da tay nhẹ nhàng kết hợp giới thiệu lợi ích khóa ẩm và mức giá hợp lý là cách upsell chuyên nghiệp nhất."
+        }
+      ],
+      "isPublished": true,
+      "publishedAt": "2026-10-17T11:08:49.986Z",
+      "updatedAt": "2026-10-17T11:08:49.986Z"
+    },
+    {
+      "id": "lesson-7",
+      "title": "Khách Đang Bệnh (Ho, Sốt, Cảm) — Nói Khéo Xin Dời Lịch",
+      "tagline": "Ứng xử nhân ái, bảo vệ sức khỏe cả tiệm và không tính phí hủy lịch",
+      "category": "safety_health",
+      "categoryNameVi": "An Toàn & Sức Khỏe",
+      "iconName": "HeartPulse",
+      "badge": "Tế nhị & Giữ khách",
+      "difficulty": "Trung cấp",
+      "estimatedMinutes": 8,
+      "summary": "Khi khách đến tiệm mà ho liên tục, sổ mũi, mặt đỏ sốt: Mở lời quan tâm đến sức khỏe của khách (\"under the weather\"), giải thích tiệm có nhiều khách lớn tuổi và phụ nữ có bầu, miễn phí hủy lịch và hẹn ngày làm lại khi khách khỏe.",
+      "culturalNote": "Ở Mỹ, việc đến nơi công cộng khi đang ốm lây lan được xem là thiếu tế nhị. Tuy nhiên, khách có thể cố đi vì sợ mất tiền cọc hoặc phí hủy lịch. Xóa bỏ phí hủy lịch (\"no cancellation fee\") là chìa khóa để khách vui vẻ ra về nghỉ ngơi.",
+      "dialogue": [
+        {
+          "id": "d7-1",
+          "speaker": "tech",
+          "english": "Hi Sarah! You seem a little under the weather today. Are you feeling okay?",
+          "vietnamese": "Chào Sarah! Hôm nay trông chị có vẻ không được khỏe lắm. Chị thấy trong người ổn không ạ?",
+          "tip": "Dùng cụm \"under the weather\" rất nhẹ nhàng thay vì nói \"You look sick\"."
+        },
+        {
+          "id": "d7-2",
+          "speaker": "client",
+          "english": "*Coughs* I woke up with a bad head cold and sore throat, but I didn't want to lose my appointment.",
+          "vietnamese": "*Ho* Chị ngủ dậy bị cảm lạnh nặng với đau họng, nhưng chị sợ mất lịch hẹn nên ráng tới."
+        },
+        {
+          "id": "d7-3",
+          "speaker": "tech",
+          "english": "I'm so sorry you're not feeling well! Honestly, you should really take it easy and get some rest at home.",
+          "vietnamese": "Em rất tiếc khi chị bị ốm! Thật lòng em nghĩ chị nên ở nhà nghỉ ngơi thư giãn cho mau lại sức chị à."
+        },
+        {
+          "id": "d7-4",
+          "speaker": "tech",
+          "english": "We have some elderly clients and moms-to-be in the salon today, so we try our best to keep everyone healthy and safe.",
+          "vietnamese": "Hôm nay trong tiệm có mấy cô lớn tuổi với có khách đang mang bầu nữa, nên tiệm em cố gắng giữ an toàn sức khỏe cho mọi người.",
+          "tip": "Nêu lý do khách quan (người lớn tuổi, bà bầu) để khách không thấy bị phân biệt đối xử."
+        },
+        {
+          "id": "d7-5",
+          "speaker": "tech",
+          "english": "We'd be more than happy to reschedule you, and there's absolutely no cancellation fee at all.",
+          "vietnamese": "Tụi em rất sẵn lòng dời lịch cho chị, và hoàn toàn không tính bất kỳ khoản phí hủy lịch nào đâu chị đừng lo."
+        },
+        {
+          "id": "d7-6",
+          "speaker": "client",
+          "english": "Oh, thank goodness! I really was feeling too tired to sit here for an hour.",
+          "vietnamese": "May quá! Thật sự chị cũng đang mệt quá không biết ngồi đây cả tiếng nổi không."
+        },
+        {
+          "id": "d7-7",
+          "speaker": "tech",
+          "english": "What day next week works best for you once you're back on your feet? Feel better soon, we'll save a great spot for you!",
+          "vietnamese": "Tuần sau khi chị khỏe hẳn lại thì ngày nào tiện cho chị nhất ạ? Chúc chị mau khỏe nha, tụi em sẽ giữ chỗ thật đẹp cho chị!",
+          "tip": "Chốt lịch tuần sau ngay để không bị mất khách."
+        }
+      ],
+      "keyPhrases": [
+        {
+          "id": "kp7-1",
+          "english": "You seem a little under the weather today. Are you feeling okay?",
+          "vietnamese": "Hôm nay chị có vẻ không khỏe. Chị thấy ổn không ạ?",
+          "context": "Thăm dò lịch sự khi thấy khách mệt mỏi."
+        },
+        {
+          "id": "kp7-2",
+          "english": "We have older clients and moms-to-be here, so we try to keep everyone healthy.",
+          "vietnamese": "Tiệm có khách lớn tuổi và bà bầu nên tụi em cố giữ an toàn cho mọi người.",
+          "context": "Lý do cộng đồng văn minh."
+        },
+        {
+          "id": "kp7-3",
+          "english": "We'd be happy to reschedule you, and there's no cancellation fee.",
+          "vietnamese": "Tụi em dời lịch cho chị nhé, không tính phí hủy đâu ạ.",
+          "context": "Giải tỏa gánh nặng tài chính."
+        },
+        {
+          "id": "kp7-4",
+          "english": "How about next week, when you're back on your feet?",
+          "vietnamese": "Tuần sau khi chị bình phục hẳn thì ngày nào tiện ạ?",
+          "context": "Cụm từ \"back on your feet\" rất tự nhiên."
+        },
+        {
+          "id": "kp7-5",
+          "english": "Feel better soon! We'll save a spot for you.",
+          "vietnamese": "Chúc chị mau khỏe nhé! Tụi em giữ sẵn chỗ cho chị.",
+          "context": "Lời chào ấm áp, quan tâm."
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "v7-1",
+          "word": "Under the weather",
+          "phonetic": "/ˈʌndər ðə ˈwɛðər/",
+          "meaning": "Cảm thấy không khỏe, hơi mệt mỏi/ốm",
+          "exampleEn": "I'm feeling a little under the weather today.",
+          "exampleVi": "Hôm nay tôi thấy trong người hơi mệt một chút."
+        },
+        {
+          "id": "v7-2",
+          "word": "Moms-to-be",
+          "phonetic": "/mɒmz tuː biː/",
+          "meaning": "Phụ nữ đang mang thai / bà bầu",
+          "exampleEn": "We use gentle products for our moms-to-be.",
+          "exampleVi": "Bên em dùng sản phẩm dịu nhẹ cho các chị đang mang bầu."
+        },
+        {
+          "id": "v7-3",
+          "word": "Cancellation fee",
+          "phonetic": "/ˌkænsəˈleɪʃən fiː/",
+          "meaning": "Phí phạt khi hủy lịch hẹn",
+          "exampleEn": "There is no cancellation fee if you're sick.",
+          "exampleVi": "Sẽ không tính phí phạt hủy hẹn nếu chị bị bệnh."
+        },
+        {
+          "id": "v7-4",
+          "word": "Back on your feet",
+          "phonetic": "/bæk ɒn jʊər fiːt/",
+          "meaning": "Bình phục, khỏe khoắn trở lại sau ốm",
+          "exampleEn": "Call us once you are back on your feet.",
+          "exampleVi": "Gọi cho tụi em khi chị đã khỏe khoắn trở lại nhé."
+        },
+        {
+          "id": "v7-5",
+          "word": "Reschedule",
+          "phonetic": "/ˌriːˈskɛdʒuːl/",
+          "meaning": "Dời sang ngày/giờ hẹn khác",
+          "exampleEn": "Can we reschedule your appointment for next Tuesday?",
+          "exampleVi": "Mình dời lịch của chị sang thứ Ba tuần sau được không ạ?"
+        }
+      ],
+      "practicalTips": [
+        "Không bao giờ nói to trước mặt khách khác: \"You are coughing so much, you have COVID!\". Hãy kéo khách ra chỗ riêng nói nhỏ nhẹ.",
+        "Ghi chú trên hệ thống booking: \"Rescheduled due to illness - waive fee\" để nhân viên tiếp tân không tính tiền phạt.",
+        "Gửi tin nhắn hoặc gọi điện chúc mau khỏe vào hôm sau tạo ấn tượng rất sâu sắc."
+      ],
+      "quiz": [
+        {
+          "id": "q7-1",
+          "situation": "Khách đến tiệm ho sặc sụa và sốt. Bạn muốn từ chối phục vụ một cách khéo léo và nhân văn nhất:",
+          "question": "Câu nói nào phù hợp nhất?",
+          "options": [
+            "Get out, you are going to infect everyone here!",
+            "You seem under the weather today. For everyone's safety, including moms-to-be here, we'd love to reschedule you with zero cancellation fee so you can rest.",
+            "Put on five masks and sit in the corner.",
+            "You must pay full price right now and go home."
+          ],
+          "correctIndex": 1,
+          "explanation": "Thể hiện sự quan tâm đến sức khỏe khách hàng và cộng đồng, đồng thời miễn phí hủy lịch là cách ứng xử chuẩn mực nhất."
+        }
+      ],
+      "isPublished": true,
+      "publishedAt": "2026-10-17T11:08:49.986Z",
+      "updatedAt": "2026-10-17T11:08:49.986Z"
+    },
+    {
+      "id": "lesson-8",
+      "title": "Giải Thích Dụng Cụ & Sản Phẩm Cho Khách Tò Mò",
+      "tagline": "Giới thiệu máy e-file, kềm cuticle nippers, primer, top coat và quy trình vệ sinh",
+      "category": "salon_skills",
+      "categoryNameVi": "Dụng Cụ & Kỹ Thuật",
+      "iconName": "Wrench",
+      "badge": "Chuyên môn",
+      "difficulty": "Cơ bản",
+      "estimatedMinutes": 8,
+      "summary": "Khi khách ngồi xem và tò mò hỏi \"What is that?\": Giải thích rành rọt máy mài điện (e-file), cây đẩy da (cuticle pusher), kềm cắt da (cuticle nippers), cục chà nhám (buffer), nước liên kết (primer) và cam kết dụng cụ luôn được khử trùng sau mỗi khách.",
+      "culturalNote": "Khách hàng ở Mỹ rất an tâm khi thấy thợ giải thích cặn kẽ và tự hào về quy trình vệ sinh. Câu nói \"All tools are sanitized and autoclaved after every client\" là bảo chứng vàng cho uy tín của tiệm.",
+      "dialogue": [
+        {
+          "id": "d8-1",
+          "speaker": "client",
+          "english": "What is that electric tool you're holding? It looks like a dentist drill!",
+          "vietnamese": "Cái đồ nghề điện em đang cầm là gì vậy? Nhìn giống cái máy khoan của nha sĩ quá!"
+        },
+        {
+          "id": "d8-2",
+          "speaker": "tech",
+          "english": "Good question! Let me show you. This is an e-file, or electric file. It gently smooths and shapes the nail much faster and cleaner.",
+          "vietnamese": "Chị hỏi hay quá! Để em cho chị xem nè. Đây là máy mài e-file (electric file). Nó giúp mài mịn và tạo form móng nhẹ nhàng, nhanh và sạch hơn nhiều ạ.",
+          "tip": "Dùng chữ \"gently smooths\" để khách không có cảm giác sợ đau."
+        },
+        {
+          "id": "d8-3",
+          "speaker": "client",
+          "english": "And what are those little scissors you just picked up?",
+          "vietnamese": "Còn cái kẹp nhỏ như cây kéo em vừa cầm lên là gì đó?"
+        },
+        {
+          "id": "d8-4",
+          "speaker": "tech",
+          "english": "These are cuticle nippers. I use them for trimming dead skin and little hangnails around your cuticles.",
+          "vietnamese": "Dạ đây là kềm cắt da (cuticle nippers). Em dùng để tỉa phần da chết và mấy cái xước măng rô quanh khóe móng."
+        },
+        {
+          "id": "d8-5",
+          "speaker": "tech",
+          "english": "And don't worry, all of our metal tools are thoroughly cleaned and sanitized in an autoclave after every single client.",
+          "vietnamese": "Và chị hoàn toàn yên tâm nha, toàn bộ dụng cụ kim loại của tiệm em đều được rửa sạch và hấp tiệt trùng sau mỗi khách hàng.",
+          "tip": "Khẳng định vệ sinh tiệt trùng autoclave."
+        },
+        {
+          "id": "d8-6",
+          "speaker": "client",
+          "english": "That is so good to know! And what is that clear liquid you just brushed on?",
+          "vietnamese": "Nghe vậy chị yên tâm hẳn! Còn cái nước trong suốt em vừa quét lên móng là gì vậy?"
+        },
+        {
+          "id": "d8-7",
+          "speaker": "tech",
+          "english": "This is primer! Think of it like double-sided tape for your nails. It helps the gel stick firmly to your natural nail so it won't lift.",
+          "vietnamese": "Dạ đây là primer! Chị cứ hình dung nó giống như băng keo hai mặt cho móng vậy. Nó giúp gel bám chặt vào móng thật để không bị tróc hay hở móng ạ.",
+          "tip": "So sánh thú vị: \"double-sided tape\" (băng keo 2 mặt)."
+        }
+      ],
+      "keyPhrases": [
+        {
+          "id": "kp8-1",
+          "english": "This is an e-file. It gently smooths and shapes the nail.",
+          "vietnamese": "Đây là máy mài e-file. Nó mài mịn và tạo dáng móng nhẹ nhàng.",
+          "context": "Giới thiệu máy mài móng điện."
+        },
+        {
+          "id": "kp8-2",
+          "english": "These are cuticle nippers, for trimming dead skin and hangnails.",
+          "vietnamese": "Đây là kềm cắt da, dùng để tỉa da chết và xước măng rô.",
+          "context": "Giải thích công dụng của kềm."
+        },
+        {
+          "id": "kp8-3",
+          "english": "All my tools are cleaned and sanitized after every client.",
+          "vietnamese": "Tất cả dụng cụ của em đều được vệ sinh và khử trùng sau mỗi khách.",
+          "context": "Cam kết tiêu chuẩn vệ sinh an toàn."
+        },
+        {
+          "id": "kp8-4",
+          "english": "Think of primer like double-sided tape for the gel.",
+          "vietnamese": "Primer giống như băng keo hai mặt giúp gel dính chắc.",
+          "context": "Cách giải thích sinh động, dễ hiểu."
+        },
+        {
+          "id": "kp8-5",
+          "english": "Feel free to ask me anything while I work!",
+          "vietnamese": "Chị cứ tự nhiên hỏi em bất cứ điều gì trong lúc làm nha!",
+          "context": "Tạo không khí cởi mở, thân thiện."
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "v8-1",
+          "word": "E-file (Electric file)",
+          "phonetic": "/ˈiː faɪl/",
+          "meaning": "Máy mài móng điện",
+          "exampleEn": "The e-file makes cuticle prep much cleaner.",
+          "exampleVi": "Máy mài e-file giúp làm sạch cuticle gọn gàng hơn nhiều."
+        },
+        {
+          "id": "v8-2",
+          "word": "Cuticle nippers",
+          "phonetic": "/ˈkjuːtɪkəl ˈnɪpərz/",
+          "meaning": "Kềm cắt da / kềm tỉa da chết",
+          "exampleEn": "Use sharp cuticle nippers to avoid pulling skin.",
+          "exampleVi": "Dùng kềm bén để tránh làm giật rách da."
+        },
+        {
+          "id": "v8-3",
+          "word": "Primer",
+          "phonetic": "/ˈpraɪmər/",
+          "meaning": "Nước liên kết / khử dầu tăng độ bám",
+          "exampleEn": "Acid-free primer helps prevent gel lifting.",
+          "exampleVi": "Primer không chứa axit giúp chống hở móng gel."
+        },
+        {
+          "id": "v8-4",
+          "word": "Sanitized / Autoclaved",
+          "phonetic": "/ˈsænɪtaɪzd / ˈɔːtoʊkleɪvd/",
+          "meaning": "Được khử trùng / tiệt trùng trong lò hấp áp suất",
+          "exampleEn": "Our salon uses medical-grade autoclaved implements.",
+          "exampleVi": "Tiệm em dùng dụng cụ tiệt trùng bằng lò hấp chuẩn y tế."
+        },
+        {
+          "id": "v8-5",
+          "word": "Top coat",
+          "phonetic": "/tɒp koʊt/",
+          "meaning": "Lớp sơn phủ bóng bảo vệ móng",
+          "exampleEn": "Top coat seals everything in and provides high shine.",
+          "exampleVi": "Lớp top coat khóa màu lại và tạo độ bóng lấp lánh."
+        }
+      ],
+      "practicalTips": [
+        "Bóc gói dụng cụ tiệt trùng (sterilization pouch) ngay trước mặt khách để khách tận mắt chứng kiến.",
+        "Sử dụng các hình ảnh so sánh giản dị (\"like double-sided tape\") giúp khách ghi nhớ và thích thú.",
+        "Thường xuyên mời khách góp ý: \"Feel free to let me know if anything feels uncomfortable\"."
+      ],
+      "quiz": [
+        {
+          "id": "q8-1",
+          "situation": "Khách chỉ vào chai Primer và tò mò hỏi công dụng của nó. Cách giải thích nào dễ hiểu nhất?",
+          "question": "Bạn nên giải thích thế nào?",
+          "options": [
+            "It is just chemical water.",
+            "This is primer! Think of it like double-sided tape for the gel, it helps it stick firmly to your natural nail.",
+            "You do not need to know, it is salon secret.",
+            "It is polish remover."
+          ],
+          "correctIndex": 1,
+          "explanation": "So sánh Primer với băng keo hai mặt (double-sided tape) là cách giải thích dí dỏm, chính xác và chuyên nghiệp."
+        }
+      ],
+      "isPublished": false,
+      "publishedAt": "2026-10-17T11:08:49.986Z",
+      "updatedAt": "2026-10-17T11:08:49.986Z"
+    },
+    {
+      "id": "lesson-9",
+      "title": "Hiểu Những Câu Khách Mỹ Nói Vòng Vo (Subtext)",
+      "tagline": "Đọc vị ý ngầm của khách: \"I'm good\", \"It's fine\", \"I was wondering if...\", \"Is it chilly?\"",
+      "category": "small_talk",
+      "categoryNameVi": "Văn Hóa & Ngôn Ngữ Mỹ",
+      "iconName": "MessageSquare",
+      "badge": "Tinh tế",
+      "difficulty": "Nâng cao",
+      "estimatedMinutes": 9,
+      "summary": "Người Mỹ thường giao tiếp gián tiếp (polite indirect communication). Khi khách nói \"I'm good\" (Thôi khỏi, cảm ơn); \"It's fine\" với giọng đều đều (Chưa ưng lắm, ngại chê); \"I was wondering if...\" (Nhờ làm thêm design); \"Is it chilly?\" (Nhờ tắt bớt máy lạnh). Hiểu đúng để đáp lại khéo léo.",
+      "culturalNote": "Trong văn hóa Mỹ, từ chối thẳng thừng hay chê bai trực diện bị coi là thô lỗ. Khách thường dùng cách nói giảm nói tránh. Nhận diện được các tín hiệu này giúp bạn trở thành thợ nail cực kỳ tinh ý và được khách yêu mến.",
+      "dialogue": [
+        {
+          "id": "d9-1",
+          "speaker": "tech",
+          "english": "Would you like some water, tea, or soda while you relax?",
+          "vietnamese": "Chị có muốn uống nước, trà hay nước ngọt trong lúc làm móng không ạ?"
+        },
+        {
+          "id": "d9-2",
+          "speaker": "client",
+          "english": "I'm good, thanks!",
+          "vietnamese": "Thôi em khỏi lấy, cảm ơn em nha! (Nghĩa là: Từ chối lịch sự, không cần nước)",
+          "tip": "Khách nói \"I'm good\" = Không cần đâu, đừng bưng nước ra nhé!"
+        },
+        {
+          "id": "d9-3",
+          "speaker": "tech",
+          "english": "No problem at all! Take your time.",
+          "vietnamese": "Dạ không sao chị! Chị cứ tự nhiên nha."
+        },
+        {
+          "id": "d9-4",
+          "speaker": "tech",
+          "english": "How does the nail shape look to you? Is the length okay?",
+          "vietnamese": "Dáng móng nhìn được chưa chị? Độ dài vậy vừa chưa ạ?"
+        },
+        {
+          "id": "d9-5",
+          "speaker": "client",
+          "english": "...It's fine.",
+          "vietnamese": "...Cũng được. (Nói giọng phẳng, không cười = Thật ra chưa ưng lắm, ngại nói thẳng)",
+          "tip": "Khách Mỹ mà ưng thật là nói \"I love it! So gorgeous!\". Nếu chỉ nói \"It's fine\" nghĩa là cần sửa lại."
+        },
+        {
+          "id": "d9-6",
+          "speaker": "tech",
+          "english": "Be honest, you won't hurt my feelings! Want me to take them a little shorter or file the sides in more?",
+          "vietnamese": "Chị cứ nói thật lòng nha, em không buồn đâu nè! Chị muốn em dũa ngắn thêm một chút hay bóp hai bên cạnh vào thêm không?",
+          "tip": "Câu mở đường vàng: \"You won't hurt my feelings!\" (Chị nói thật em không buồn đâu)."
+        },
+        {
+          "id": "d9-7",
+          "speaker": "client",
+          "english": "Actually, yes please! If you could round out the corners just a tiny bit, that would be perfect.",
+          "vietnamese": "Thật ra đúng rồi em! Em bo tròn hai góc lại tí xíu giúp chị là tuyệt vời luôn."
+        },
+        {
+          "id": "d9-8",
+          "speaker": "client",
+          "english": "Is it just me, or is it a little chilly in here?",
+          "vietnamese": "Có phải mỗi chị thấy lạnh không ta, hay ở đây hơi lạnh nhỉ? (Ý ngầm: Nhờ tắt bớt quạt hoặc máy lạnh)"
+        },
+        {
+          "id": "d9-9",
+          "speaker": "tech",
+          "english": "Oh, let me turn the desk fan off for you and grab you a warm towel!",
+          "vietnamese": "Dạ để em tắt quạt bàn cho chị và lấy cho chị một chiếc khăn ấm nha!",
+          "tip": "Hiểu ngay ý ngầm để phục vụ vượt ngoài mong đợi."
+        }
+      ],
+      "keyPhrases": [
+        {
+          "id": "kp9-1",
+          "english": "I'm good, thanks. (Đáp lại: No problem!)",
+          "vietnamese": "Thôi khỏi em, cảm ơn. (Khách từ chối lịch sự, không lấy đồ uống)",
+          "context": "Phân biệt \"I'm good\" với đồng ý."
+        },
+        {
+          "id": "kp9-2",
+          "english": "Be honest, you won't hurt my feelings!",
+          "vietnamese": "Chị cứ nói thật, em không buồn hay tự ái đâu!",
+          "context": "Khích lệ khách nói thật lòng chỗ chưa vừa ý."
+        },
+        {
+          "id": "kp9-3",
+          "english": "I was wondering if you could do a little design on my ring fingers.",
+          "vietnamese": "Khách nhờ lịch sự: Em vẽ giùm chị chút design lên ngón áp út được không?",
+          "context": "Cách khách Mỹ nhờ làm thêm dịch vụ."
+        },
+        {
+          "id": "kp9-4",
+          "english": "Is it just me, or is it a little chilly in here?",
+          "vietnamese": "Khách nhắc khéo nhờ tắt quạt/máy lạnh vì đang bị lạnh.",
+          "context": "Nhận diện yêu cầu gián tiếp về nhiệt độ."
+        },
+        {
+          "id": "kp9-5",
+          "english": "Well, I'll let you get back to work! (Đáp lại: Thanks for coming in!)",
+          "vietnamese": "Thôi chị để em làm việc nha! (Khách lịch sự kết thúc câu chuyện để ra về)",
+          "context": "Dấu hiệu chào tạm biệt của người Mỹ."
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "v9-1",
+          "word": "I'm good",
+          "phonetic": "/aɪm ɡʊd/",
+          "meaning": "Thôi khỏi / Tôi ổn rồi (Cách từ chối lịch sự khi được mời nước)",
+          "exampleEn": "More coffee? - I'm good, thanks!",
+          "exampleVi": "Uống thêm cà phê không? - Thôi khỏi, cảm ơn nha!"
+        },
+        {
+          "id": "v9-2",
+          "word": "It's fine (ngữ điệu phẳng)",
+          "phonetic": "/ɪts faɪn/",
+          "meaning": "Tạm được (thường hàm ý chưa thực sự ưng ý)",
+          "exampleEn": "If she says 'It's fine' without smiling, ask her how to improve it.",
+          "exampleVi": "Nếu khách nói \"It's fine\" mà không cười, hãy hỏi để sửa lại cho ưng ý."
+        },
+        {
+          "id": "v9-3",
+          "word": "Subtext",
+          "phonetic": "/ˈsʌbtɛkst/",
+          "meaning": "Ý ngầm / thông điệp ẩn đằng sau câu chữ",
+          "exampleEn": "Understanding American subtext helps you serve clients better.",
+          "exampleVi": "Hiểu ý ngầm của người Mỹ giúp bạn phục vụ khách tinh tế hơn."
+        },
+        {
+          "id": "v9-4",
+          "word": "Take your time",
+          "phonetic": "/teɪk jʊər taɪm/",
+          "meaning": "Cứ thong thả, không cần vội",
+          "exampleEn": "Take your time picking out your color.",
+          "exampleVi": "Chị cứ thong thả chọn màu nhé."
+        },
+        {
+          "id": "v9-5",
+          "word": "Hurt my feelings",
+          "phonetic": "/hɜːrt maɪ ˈfiːlɪŋz/",
+          "meaning": "Làm tôi buồn lòng / tự ái",
+          "exampleEn": "Don't worry, you won't hurt my feelings at all.",
+          "exampleVi": "Chị đừng ngại, chị nói góp ý em không buồn đâu."
+        }
+      ],
+      "practicalTips": [
+        "Khi bạn hỏi \"Do you want some water?\" và khách đáp \"I'm good\", đừng bưng ly nước ra bàn!",
+        "Khi dũa form xong mà khách không hào hứng khen \"I love it\", hãy chủ động đưa tay khách lại gần và gợi ý dũa ngắn/gọn hơn.",
+        "Khách hỏi \"Do you mind if I take this call?\" thì luôn trả lời \"Not at all, go ahead!\" (Không phiền gì đâu, chị cứ nghe đi), đừng nói \"Yes\"!"
+      ],
+      "quiz": [
+        {
+          "id": "q9-1",
+          "situation": "Bạn hỏi khách: \"Do you mind if I start filing your other hand?\" Khách vui vẻ đồng ý cho bạn làm, khách sẽ nói:",
+          "question": "Câu nào mang nghĩa đồng ý cho phép?",
+          "options": [
+            "Yes, I mind.",
+            "Not at all, go ahead!",
+            "You should mind.",
+            "Never mind."
+          ],
+          "correctIndex": 1,
+          "explanation": "Với câu hỏi \"Do you mind...?\" (Bạn có phiền không), câu trả lời \"Not at all, go ahead\" nghĩa là \"Không phiền chút nào, cứ làm đi\"."
+        }
+      ],
+      "isPublished": false,
+      "publishedAt": "2026-10-17T11:08:49.986Z",
+      "updatedAt": "2026-10-17T11:08:49.986Z"
+    },
+    {
+      "id": "lesson-10",
+      "title": "Xử Lý Hai Khách Bị Đặt Trùng Giờ (Double-Booking)",
+      "tagline": "Nhận lỗi về phía tiệm, bố trí thợ giỏi khác hoặc giảm 10% lịch sau",
+      "category": "complaints",
+      "categoryNameVi": "Xử Lý Phàn Nàn",
+      "iconName": "Users",
+      "badge": "Xử lý khủng hoảng",
+      "difficulty": "Nâng cao",
+      "estimatedMinutes": 9,
+      "summary": "Hai khách cùng bước vào tiệm lúc 2:00 PM và cùng hẹn một người thợ. Tuyệt đối không đổ thừa lỗi tại khách. Nhận trách nhiệm thuộc về tiệm (\"The mix-up is on our end\"), đưa ra 3 phương án lựa chọn: Chờ 15 phút, đổi thợ giỏi khác làm ngay, hoặc dời lịch giảm giá 10%.",
+      "culturalNote": "Sự cố trùng lịch là chuyện tiệm nào cũng có thể gặp. Người Mỹ giận dữ nhất khi bị tiệm đổ lỗi hoặc coi thường thời gian của họ. Khi bạn chân thành nhận lỗi và bồi thường nước uống hoặc giảm giá, khách sẽ càng thêm tôn trọng tính chuyên nghiệp của bạn.",
+      "dialogue": [
+        {
+          "id": "d10-1",
+          "speaker": "client",
+          "english": "I have a two o'clock appointment with Jessica, but she's already doing someone else's full set!",
+          "vietnamese": "Tôi có lịch hẹn lúc hai giờ với Jessica, sao cô ấy lại đang làm full set cho người khác rồi!"
+        },
+        {
+          "id": "d10-2",
+          "speaker": "tech",
+          "english": "I'm so sorry! You did everything right, the mix-up is completely on our end. We accidentally double-booked the two o'clock slot.",
+          "vietnamese": "Em vô cùng xin lỗi chị! Chị không làm gì sai hết, sơ suất nhầm lẫn hoàn toàn là do bên tiệm tụi em. Tiệm lỡ đặt trùng hai lịch vào cùng lúc hai giờ ạ.",
+          "tip": "Khẳng định ngay: \"The mix-up is completely on our end\" (Lỗi hoàn toàn do tiệm)."
+        },
+        {
+          "id": "d10-3",
+          "speaker": "tech",
+          "english": "If you don't mind waiting about fifteen minutes, we'll have a comfortable chair ready for you. Or, we have another amazing tech who can start on your nails right now.",
+          "vietnamese": "Nếu chị không phiền chờ khoảng mười lăm phút, tụi em sẽ có ghế sẵn sàng cho chị. Hoặc tiệm có một bạn thợ khác tay nghề rất giỏi có thể bắt đầu làm cho chị ngay bây giờ."
+        },
+        {
+          "id": "d10-4",
+          "speaker": "tech",
+          "english": "And if you'd rather reschedule for another day, we'll gladly take ten percent off your next visit to make it up to you.",
+          "vietnamese": "Còn nếu chị muốn dời sang hôm khác tiện hơn, tiệm xin giảm ngay mười phần trăm cho lần tới để bù đắp sự bất tiện này cho chị ạ.",
+          "tip": "Đưa 3 lựa chọn rõ ràng để khách tự quyết."
+        },
+        {
+          "id": "d10-5",
+          "speaker": "client",
+          "english": "I have an event tonight, so I can't reschedule. Is the other tech really good?",
+          "vietnamese": "Tối nay chị có tiệc nên không dời lịch được. Bạn thợ kia làm có khéo thật không?"
+        },
+        {
+          "id": "d10-6",
+          "speaker": "tech",
+          "english": "Yes! Amy is incredible with shaping and gel. Plus, to make it up to you, we'd love to throw in a free paraffin treatment on the house today!",
+          "vietnamese": "Dạ vâng! Bạn Amy dũa form và sơn gel rất xuất sắc. Hơn nữa để bù cho chị, hôm nay tiệm xin tặng chị gói ủ sáp paraffin miễn phí tiệm bao luôn ạ!",
+          "tip": "Tặng thêm add-on \"on the house\" (tiệm bao) xoa dịu khách."
+        },
+        {
+          "id": "d10-7",
+          "speaker": "tech",
+          "english": "Thank you so much for being so understanding. I promise we'll be more careful with our bookings from now on!",
+          "vietnamese": "Cảm ơn chị rất nhiều vì đã thông cảm cho tiệm. Em hứa tiệm sẽ kiểm tra lịch cẩn thận hơn để không bao giờ xảy ra chuyện này nữa!"
+        }
+      ],
+      "keyPhrases": [
+        {
+          "id": "kp10-1",
+          "english": "You did everything right. The mix-up is completely on our end.",
+          "vietnamese": "Chị làm đúng hết, nhầm lẫn hoàn toàn là do bên tiệm.",
+          "context": "Nhận trách nhiệm minh bạch, giải tỏa bực bội."
+        },
+        {
+          "id": "kp10-2",
+          "english": "We accidentally double-booked the two o'clock slot.",
+          "vietnamese": "Tiệm vô ý đặt trùng lịch vào khung hai giờ.",
+          "context": "Giải thích ngắn gọn lý do trùng lịch."
+        },
+        {
+          "id": "kp10-3",
+          "english": "We have another amazing tech who can start on your nails right now.",
+          "vietnamese": "Tiệm có thợ khác tay nghề rất giỏi làm cho chị liền được.",
+          "context": "Đề xuất thợ thay thế chất lượng cao."
+        },
+        {
+          "id": "kp10-4",
+          "english": "To make it up to you, we'll throw in a free paraffin treatment on the house.",
+          "vietnamese": "Để bù đắp cho chị, tiệm tặng phần sáp paraffin miễn phí.",
+          "context": "Tặng quà bồi thường \"on the house\"."
+        },
+        {
+          "id": "kp10-5",
+          "english": "Thank you so much for being so understanding.",
+          "vietnamese": "Cảm ơn chị rất nhiều vì đã thấu hiểu và thông cảm cho tiệm.",
+          "context": "Lời tri ân sâu sắc đến khách hàng."
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "v10-1",
+          "word": "Double-booked",
+          "phonetic": "/ˈdʌbəl bʊkt/",
+          "meaning": "Bị đặt trùng lịch hai khách cùng một giờ",
+          "exampleEn": "We accidentally double-booked Jessica at two o’clock.",
+          "exampleVi": "Tụi em lỡ đặt trùng lịch Jessica lúc hai giờ."
+        },
+        {
+          "id": "v10-2",
+          "word": "Mix-up on our end",
+          "phonetic": "/ˈmɪks ʌp ɒn ˈaʊər ɛnd/",
+          "meaning": "Sự nhầm lẫn xuất phát từ phía bên tiệm chúng tôi",
+          "exampleEn": "Don't worry, the mix-up is on our end.",
+          "exampleVi": "Chị đừng lo, nhầm lẫn là từ phía bên tiệm em."
+        },
+        {
+          "id": "v10-3",
+          "word": "On the house",
+          "phonetic": "/ɒn ðə haʊs/",
+          "meaning": "Miễn phí, tiệm chiêu đãi / tiệm trả tiền",
+          "exampleEn": "Your nail art today is on the house.",
+          "exampleVi": "Phần vẽ móng hôm nay tiệm tặng miễn phí cho chị nha."
+        },
+        {
+          "id": "v10-4",
+          "word": "Make it up to you",
+          "phonetic": "/meɪk ɪt ʌp tuː juː/",
+          "meaning": "Bù đắp, đền bù cho bạn vì sự bất tiện",
+          "exampleEn": "Let me give you a discount to make it up to you.",
+          "exampleVi": "Để em giảm giá cho chị để bù đắp nhé."
+        },
+        {
+          "id": "v10-5",
+          "word": "Sit tight",
+          "phonetic": "/sɪt taɪt/",
+          "meaning": "Cứ ngồi yên chờ một lát",
+          "exampleEn": "Just sit tight for five minutes and I will be right with you.",
+          "exampleVi": "Chị cứ ngồi thư giãn năm phút, em sẽ qua làm ngay với chị."
+        }
+      ],
+      "practicalTips": [
+        "Không bao giờ nói: \"You booked wrong date\" trước khi kiểm tra sổ hoặc phần mềm.",
+        "Nếu khách chọn đợi, hãy mời nước đóng chai hoặc trà ấm và mang gối tựa lưng ra cho khách.",
+        "Báo ngay cho chủ tiệm hoặc manager để duyệt giảm giá hoặc tặng dịch vụ miễn phí bù đắp."
+      ],
+      "quiz": [
+        {
+          "id": "q10-1",
+          "situation": "Hai khách cùng đến một lúc vì lễ tân ghi trùng lịch. Bạn nên nói câu nào để nhận lỗi chuyên nghiệp nhất?",
+          "question": "Câu mở đầu đúng đắn:",
+          "options": [
+            "One of you has to go home right now.",
+            "Why did you both come at the same time?",
+            "I'm so sorry! You did everything right, the mix-up is completely on our end. Let me find a solution right away.",
+            "Our computer broke so it is not my problem."
+          ],
+          "correctIndex": 2,
+          "explanation": "Nhận trách nhiệm về phía tiệm (\"the mix-up is completely on our end\") là tiêu chuẩn vàng trong dịch vụ khách hàng tại Mỹ."
+        }
+      ],
+      "isPublished": false,
+      "publishedAt": "2026-10-17T11:08:49.986Z",
+      "updatedAt": "2026-10-17T11:08:49.986Z"
+    }
+  ],
+  "learnerHistory": [
+    {
+      "userId": "usr-mvccfzpd",
+      "userName": "Lê Minh Hậu",
+      "userEmail": "leminhhaukrb16@gmail.com",
+      "lessonId": "lesson-1",
+      "lessonTitle": "Khách Chê Thợ Làm Nhanh, Làm Ẩu",
+      "action": "lesson_complete",
+      "score": 95,
+      "details": "Hoàn thành xuất sắc bài học nail",
+      "id": "hist-mvccgbvq-6fk3",
+      "timestamp": "2026-10-17T11:59:33.926Z"
+    },
+    {
+      "id": "hist-001",
+      "userId": "usr-learner-1",
+      "userEmail": "learner@nailspeak.pro",
+      "userName": "Lisa Hoàng",
+      "lessonId": "lesson-1",
+      "lessonTitle": "Khách Chê Thợ Làm Nhanh, Làm Ẩu",
+      "action": "lesson_complete",
+      "score": 95,
+      "details": "Hoàn thành toàn bộ hội thoại xử lý phàn nàn",
+      "timestamp": "2026-10-15T11:58:51.104Z"
+    },
+    {
+      "id": "hist-002",
+      "userId": "usr-learner-1",
+      "userEmail": "learner@nailspeak.pro",
+      "userName": "Lisa Hoàng",
+      "lessonId": "lesson-1",
+      "lessonTitle": "Khách Chê Thợ Làm Nhanh, Làm Ẩu",
+      "action": "recording_practice",
+      "score": 88,
+      "targetSentence": "I apologize if I seemed rushed. Let me slow down and make sure you are completely satisfied.",
+      "spokenSentence": "I apologize if I seemed rushed. Let me slow down and make sure you are satisfied.",
+      "details": "Luyện phát âm AI câu xin lỗi khách hàng",
+      "timestamp": "2026-10-15T23:58:51.104Z"
+    },
+    {
+      "id": "hist-003",
+      "userId": "usr-learner-2",
+      "userEmail": "tina.pham@houstonnails.com",
+      "userName": "Tina Phạm",
+      "lessonId": "lesson-2",
+      "lessonTitle": "Đổi Màu Sơn Giữa Chừng",
+      "action": "lesson_complete",
+      "score": 90,
+      "details": "Hoàn thành bài học đổi màu sơn và tư vấn phí",
+      "timestamp": "2026-10-14T11:58:51.104Z"
+    },
+    {
+      "id": "hist-004",
+      "userId": "usr-learner-3",
+      "userEmail": "kevin.d@ocnails.com",
+      "userName": "Kevin Đặng",
+      "lessonId": "lesson-3",
+      "lessonTitle": "Móng Khách Bị Chảy Máu (Cắt Vào Da Khách)",
+      "action": "recording_practice",
+      "score": 84,
+      "targetSentence": "Oh, I am so sorry! Let me clean and sanitize this right away.",
+      "spokenSentence": "Oh, I am so sorry! Let me clean and sanitize this.",
+      "details": "Luyện câu xử lý sơ cứu an toàn cho khách",
+      "timestamp": "2026-10-16T11:58:51.104Z"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub-1792241973169-590t",
+      "userId": "usr-mvcelh2o",
+      "userName": "Test Tech",
+      "userEmail": "test.tech@gmail.com",
+      "planId": "6_months",
+      "planName": "Gói 6 Tháng",
+      "priceUsd": 25,
+      "status": "approved",
+      "requestedAt": "2026-10-17T12:59:33.169Z",
+      "note": "Zelle 1234",
+      "reviewedAt": "2026-10-17T12:59:38.201Z",
+      "reviewedBy": "Sarah Nguyễn (super_admin)"
+    },
+    {
+      "id": "sub-001",
+      "userId": "usr-learner-1",
+      "userName": "Lisa Hoàng",
+      "userEmail": "learner@nailspeak.pro",
+      "salonName": "Princess Nails & Spa",
+      "salonLocation": "Los Angeles, CA",
+      "planId": "6_months",
+      "planName": "Gói 6 Tháng",
+      "priceUsd": 25,
+      "status": "pending",
+      "requestedAt": "2026-10-17T10:59:29.253Z",
+      "note": "Đã chuyển Zelle số đuôi 892. Vui lòng duyệt sớm để học tiếp bài 6!"
+    },
+    {
+      "id": "sub-002",
+      "userId": "usr-learner-2",
+      "userName": "Tina Phạm",
+      "userEmail": "tina.pham@houstonnails.com",
+      "salonName": "Organic Nail Lounge",
+      "salonLocation": "Houston, TX",
+      "planId": "1_year",
+      "planName": "Gói 1 Năm",
+      "priceUsd": 40,
+      "status": "pending",
+      "requestedAt": "2026-10-17T11:59:29.253Z",
+      "note": "Đã gửi qua Venmo: @tina-nails-tx. Muốn mở trọn bộ để luyện upsell."
+    }
+  ]
+}

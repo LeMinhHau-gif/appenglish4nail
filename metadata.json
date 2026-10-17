@@ -1,0 +1,10 @@
+{
+  "name": "NailSpeak Pro - Tiếng Anh Tiệm Nail",
+  "description": "Ứng dụng học tiếng Anh giao tiếp chuyên biệt cho thợ Nail người Việt tại Mỹ với AI chấm điểm phát âm, hội thoại thực tế và chế độ ngoại tuyến.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

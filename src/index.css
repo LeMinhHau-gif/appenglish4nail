@@ -1,0 +1,390 @@
+@import "tailwindcss";
+
+/* ============================================================
+   NAILSPEAK PRO — THEME DESIGN SYSTEM (COLOR PALETTES)
+   Inspired by upscale US Nail Salons & Luxury Beauty Boutiques
+   ============================================================ */
+
+/* 1. ROSE GOLD & NUDE (DEFAULT SALON THEME) — DARK MODE */
+:root,
+[data-theme="rose_gold"][data-mode="dark"],
+[data-theme="rose_gold"] {
+  --theme-bg-app: #181416;
+  --theme-bg-phone: #1e181b;
+  --theme-bg-card: #251e22;
+  --theme-bg-card-hover: #2f252b;
+  --theme-bg-subtle: #1c1619;
+  --theme-bg-input: #1b1518;
+  --theme-border: #44323a;
+  --theme-border-subtle: #34262d;
+  --theme-border-hover: #e08272;
+  --theme-primary: #e08272;
+  --theme-primary-hover: #e89587;
+  --theme-primary-subtle: rgba(224, 130, 114, 0.15);
+  --theme-secondary: #e6b870;
+  --theme-secondary-subtle: rgba(230, 184, 112, 0.15);
+  --theme-gradient-accent: linear-gradient(135deg, #d87262 0%, #d4687b 50%, #c94f6f 100%);
+  --theme-gradient-gold: linear-gradient(135deg, #f5d18e 0%, #e6b870 50%, #c9933b 100%);
+  --theme-text-main: #fcf8f6;
+  --theme-text-muted: #c4b0b6;
+  --theme-text-subtle: #8e7980;
+  --theme-shadow-glow: rgba(216, 114, 98, 0.25);
+  --theme-bubble-client: #201a1d;
+  --theme-bubble-tech: #2f2227;
+}
+
+/* 1. ROSE GOLD & NUDE — LIGHT SALON MODE */
+[data-theme="rose_gold"][data-mode="light"] {
+  --theme-bg-app: #faf6f4;
+  --theme-bg-phone: #fdfaf8;
+  --theme-bg-card: #ffffff;
+  --theme-bg-card-hover: #fff3f0;
+  --theme-bg-subtle: #f8f0ec;
+  --theme-bg-input: #ffffff;
+  --theme-border: #edd5cd;
+  --theme-border-subtle: #f4e5df;
+  --theme-border-hover: #d87262;
+  --theme-primary: #c95d4e;
+  --theme-primary-hover: #b84f40;
+  --theme-primary-subtle: rgba(201, 93, 78, 0.1);
+  --theme-secondary: #b8862d;
+  --theme-secondary-subtle: rgba(184, 134, 45, 0.12);
+  --theme-gradient-accent: linear-gradient(135deg, #d96b5b 0%, #c8536b 50%, #b3395b 100%);
+  --theme-gradient-gold: linear-gradient(135deg, #e4b55e 0%, #c79032 100%);
+  --theme-text-main: #2b1f22;
+  --theme-text-muted: #6e5259;
+  --theme-text-subtle: #9c7f86;
+  --theme-shadow-glow: rgba(201, 93, 78, 0.15);
+  --theme-bubble-client: #f8ede8;
+  --theme-bubble-tech: #fae4dd;
+}
+
+/* 2. BLUSH PINK & PEACH — DARK MODE */
+[data-theme="blush_pink"][data-mode="dark"] {
+  --theme-bg-app: #181318;
+  --theme-bg-phone: #201820;
+  --theme-bg-card: #281d28;
+  --theme-bg-card-hover: #332333;
+  --theme-bg-subtle: #1c151c;
+  --theme-bg-input: #1a131a;
+  --theme-border: #462c44;
+  --theme-border-subtle: #362235;
+  --theme-border-hover: #ee829e;
+  --theme-primary: #ee829e;
+  --theme-primary-hover: #f59eb5;
+  --theme-primary-subtle: rgba(238, 130, 158, 0.15);
+  --theme-secondary: #f7a072;
+  --theme-secondary-subtle: rgba(247, 160, 114, 0.15);
+  --theme-gradient-accent: linear-gradient(135deg, #e26d8c 0%, #eb819c 50%, #f7a072 100%);
+  --theme-gradient-gold: linear-gradient(135deg, #fcd0a1 0%, #f7a072 100%);
+  --theme-text-main: #fff6f8;
+  --theme-text-muted: #cbb2bf;
+  --theme-text-subtle: #947988;
+  --theme-shadow-glow: rgba(226, 109, 140, 0.25);
+  --theme-bubble-client: #211821;
+  --theme-bubble-tech: #321f30;
+}
+
+/* 2. BLUSH PINK & PEACH — LIGHT MODE */
+[data-theme="blush_pink"][data-mode="light"] {
+  --theme-bg-app: #fbf5f7;
+  --theme-bg-phone: #fefafb;
+  --theme-bg-card: #ffffff;
+  --theme-bg-card-hover: #fff0f4;
+  --theme-bg-subtle: #f9edf1;
+  --theme-bg-input: #ffffff;
+  --theme-border: #ebd1db;
+  --theme-border-subtle: #f4e1e9;
+  --theme-border-hover: #e26d8c;
+  --theme-primary: #c94c6f;
+  --theme-primary-hover: #b53b5d;
+  --theme-primary-subtle: rgba(201, 76, 111, 0.1);
+  --theme-secondary: #db6e3a;
+  --theme-secondary-subtle: rgba(219, 110, 58, 0.12);
+  --theme-gradient-accent: linear-gradient(135deg, #e26d8c 0%, #d85779 50%, #db6e3a 100%);
+  --theme-gradient-gold: linear-gradient(135deg, #f7a072 0%, #db6e3a 100%);
+  --theme-text-main: #2e1c24;
+  --theme-text-muted: #735060;
+  --theme-text-subtle: #a07d8d;
+  --theme-shadow-glow: rgba(226, 109, 140, 0.15);
+  --theme-bubble-client: #faecf1;
+  --theme-bubble-tech: #fde2eb;
+}
+
+/* 3. WARM LATTE & CHAMPAGNE — DARK MODE */
+[data-theme="latte_champagne"][data-mode="dark"] {
+  --theme-bg-app: #181512;
+  --theme-bg-phone: #201b17;
+  --theme-bg-card: #28211c;
+  --theme-bg-card-hover: #332a24;
+  --theme-bg-subtle: #1c1814;
+  --theme-bg-input: #1a1613;
+  --theme-border: #44372e;
+  --theme-border-subtle: #352a22;
+  --theme-border-hover: #d89772;
+  --theme-primary: #d89772;
+  --theme-primary-hover: #e4ab8a;
+  --theme-primary-subtle: rgba(216, 151, 114, 0.15);
+  --theme-secondary: #daa520;
+  --theme-secondary-subtle: rgba(218, 165, 32, 0.15);
+  --theme-gradient-accent: linear-gradient(135deg, #c78862 0%, #b5734c 50%, #daa520 100%);
+  --theme-gradient-gold: linear-gradient(135deg, #f4d06f 0%, #daa520 100%);
+  --theme-text-main: #faf5f0;
+  --theme-text-muted: #c6b4a6;
+  --theme-text-subtle: #8e7d70;
+  --theme-shadow-glow: rgba(199, 136, 98, 0.25);
+  --theme-bubble-client: #221c17;
+  --theme-bubble-tech: #30241c;
+}
+
+/* 3. WARM LATTE & CHAMPAGNE — LIGHT MODE */
+[data-theme="latte_champagne"][data-mode="light"] {
+  --theme-bg-app: #f9f6f2;
+  --theme-bg-phone: #fdfbf9;
+  --theme-bg-card: #ffffff;
+  --theme-bg-card-hover: #f8f2eb;
+  --theme-bg-subtle: #f4ede4;
+  --theme-bg-input: #ffffff;
+  --theme-border: #e8d9cc;
+  --theme-border-subtle: #f0e6dc;
+  --theme-border-hover: #b5734c;
+  --theme-primary: #a85f36;
+  --theme-primary-hover: #914d28;
+  --theme-primary-subtle: rgba(168, 95, 54, 0.1);
+  --theme-secondary: #b8860b;
+  --theme-secondary-subtle: rgba(184, 134, 11, 0.12);
+  --theme-gradient-accent: linear-gradient(135deg, #b5734c 0%, #9e5b34 50%, #b8860b 100%);
+  --theme-gradient-gold: linear-gradient(135deg, #daa520 0%, #b8860b 100%);
+  --theme-text-main: #2b211a;
+  --theme-text-muted: #6b5547;
+  --theme-text-subtle: #968071;
+  --theme-shadow-glow: rgba(181, 115, 76, 0.15);
+  --theme-bubble-client: #f4ece4;
+  --theme-bubble-tech: #fae8d8;
+}
+
+/* 4. VELVET NOIR & ROYAL GOLD — DARK MODE */
+[data-theme="velvet_noir"][data-mode="dark"] {
+  --theme-bg-app: #121014;
+  --theme-bg-phone: #18151a;
+  --theme-bg-card: #201c24;
+  --theme-bg-card-hover: #29242e;
+  --theme-bg-subtle: #161318;
+  --theme-bg-input: #141116;
+  --theme-border: #42364c;
+  --theme-border-subtle: #312838;
+  --theme-border-hover: #f0cb6e;
+  --theme-primary: #f0cb6e;
+  --theme-primary-hover: #f7da8c;
+  --theme-primary-subtle: rgba(240, 203, 110, 0.15);
+  --theme-secondary: #d95368;
+  --theme-secondary-subtle: rgba(217, 83, 104, 0.15);
+  --theme-gradient-accent: linear-gradient(135deg, #f0cb6e 0%, #d4af37 40%, #b23a48 100%);
+  --theme-gradient-gold: linear-gradient(135deg, #fae29c 0%, #d4af37 50%, #aa8218 100%);
+  --theme-text-main: #fbf9f4;
+  --theme-text-muted: #c5b9cc;
+  --theme-text-subtle: #897d90;
+  --theme-shadow-glow: rgba(212, 175, 55, 0.25);
+  --theme-bubble-client: #1b1720;
+  --theme-bubble-tech: #2b1f2e;
+}
+
+/* 4. VELVET NOIR & ROYAL GOLD — LIGHT MODE */
+[data-theme="velvet_noir"][data-mode="light"] {
+  --theme-bg-app: #f7f6f9;
+  --theme-bg-phone: #fcfbfe;
+  --theme-bg-card: #ffffff;
+  --theme-bg-card-hover: #faf6eb;
+  --theme-bg-subtle: #f0edf4;
+  --theme-bg-input: #ffffff;
+  --theme-border: #e0d8e8;
+  --theme-border-subtle: #ebe5f2;
+  --theme-border-hover: #b89222;
+  --theme-primary: #aa8218;
+  --theme-primary-hover: #916d10;
+  --theme-primary-subtle: rgba(170, 130, 24, 0.1);
+  --theme-secondary: #9c2839;
+  --theme-secondary-subtle: rgba(156, 40, 57, 0.12);
+  --theme-gradient-accent: linear-gradient(135deg, #c49a2b 0%, #aa8218 50%, #9c2839 100%);
+  --theme-gradient-gold: linear-gradient(135deg, #d8ab34 0%, #9b740e 100%);
+  --theme-text-main: #201a24;
+  --theme-text-muted: #5e5266;
+  --theme-text-subtle: #8c7e94;
+  --theme-shadow-glow: rgba(170, 130, 24, 0.15);
+  --theme-bubble-client: #f1ecf5;
+  --theme-bubble-tech: #fbf2da;
+}
+
+/* 5. SAGE SPA & EUCALYPTUS — DARK MODE */
+[data-theme="sage_spa"][data-mode="dark"] {
+  --theme-bg-app: #121714;
+  --theme-bg-phone: #17201b;
+  --theme-bg-card: #1f2a24;
+  --theme-bg-card-hover: #27362e;
+  --theme-bg-subtle: #151d18;
+  --theme-bg-input: #131a15;
+  --theme-border: #334a3e;
+  --theme-border-subtle: #26382f;
+  --theme-border-hover: #5ec094;
+  --theme-primary: #5ec094;
+  --theme-primary-hover: #75d4a9;
+  --theme-primary-subtle: rgba(94, 192, 148, 0.15);
+  --theme-secondary: #e2b17a;
+  --theme-secondary-subtle: rgba(226, 177, 122, 0.15);
+  --theme-gradient-accent: linear-gradient(135deg, #48a87d 0%, #388863 50%, #d4a373 100%);
+  --theme-gradient-gold: linear-gradient(135deg, #f0cda4 0%, #d4a373 100%);
+  --theme-text-main: #f5fbf7;
+  --theme-text-muted: #adc2b6;
+  --theme-text-subtle: #738a7d;
+  --theme-shadow-glow: rgba(72, 168, 125, 0.25);
+  --theme-bubble-client: #19231e;
+  --theme-bubble-tech: #23352c;
+}
+
+/* 5. SAGE SPA & EUCALYPTUS — LIGHT MODE */
+[data-theme="sage_spa"][data-mode="light"] {
+  --theme-bg-app: #f4f8f6;
+  --theme-bg-phone: #f9fbfb;
+  --theme-bg-card: #ffffff;
+  --theme-bg-card-hover: #edf6f2;
+  --theme-bg-subtle: #e9f2ee;
+  --theme-bg-input: #ffffff;
+  --theme-border: #d0e3db;
+  --theme-border-subtle: #e0ede7;
+  --theme-border-hover: #358b64;
+  --theme-primary: #2d7a57;
+  --theme-primary-hover: #226245;
+  --theme-primary-subtle: rgba(45, 122, 87, 0.1);
+  --theme-secondary: #b67d44;
+  --theme-secondary-subtle: rgba(182, 125, 68, 0.12);
+  --theme-gradient-accent: linear-gradient(135deg, #388863 0%, #2b7050 50%, #b67d44 100%);
+  --theme-gradient-gold: linear-gradient(135deg, #dfa971 0%, #b67d44 100%);
+  --theme-text-main: #182620;
+  --theme-text-muted: #496356;
+  --theme-text-subtle: #799487;
+  --theme-shadow-glow: rgba(45, 122, 87, 0.15);
+  --theme-bubble-client: #eaf3ef;
+  --theme-bubble-tech: #ddede6;
+}
+
+/* ============================================================
+   BEAUTIFUL UTILITY CLASSES FOR THE NEW COLOR SYSTEM
+   ============================================================ */
+
+.nail-bg-app {
+  background-color: var(--theme-bg-app);
+}
+
+.nail-bg-phone {
+  background-color: var(--theme-bg-phone);
+}
+
+.nail-bg-card {
+  background-color: var(--theme-bg-card);
+}
+
+.nail-bg-card-hover:hover {
+  background-color: var(--theme-bg-card-hover);
+}
+
+.nail-bg-subtle {
+  background-color: var(--theme-bg-subtle);
+}
+
+.nail-bg-input {
+  background-color: var(--theme-bg-input);
+}
+
+.nail-border {
+  border-color: var(--theme-border);
+}
+
+.nail-border-subtle {
+  border-color: var(--theme-border-subtle);
+}
+
+.nail-border-hover:hover {
+  border-color: var(--theme-border-hover);
+}
+
+.nail-text-main {
+  color: var(--theme-text-main);
+}
+
+.nail-text-muted {
+  color: var(--theme-text-muted);
+}
+
+.nail-text-subtle {
+  color: var(--theme-text-subtle);
+}
+
+.nail-text-primary {
+  color: var(--theme-primary);
+}
+
+.nail-text-secondary {
+  color: var(--theme-secondary);
+}
+
+.nail-gradient-accent {
+  background-image: var(--theme-gradient-accent);
+}
+
+.nail-gradient-gold {
+  background-image: var(--theme-gradient-gold);
+}
+
+.nail-shadow-glow {
+  box-shadow: 0 10px 25px -5px var(--theme-shadow-glow);
+}
+
+.nail-card {
+  background-color: var(--theme-bg-card);
+  border: 1px solid var(--theme-border);
+  color: var(--theme-text-main);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.nail-card:hover {
+  background-color: var(--theme-bg-card-hover);
+  border-color: var(--theme-border-hover);
+  box-shadow: 0 12px 24px -6px var(--theme-shadow-glow);
+}
+
+.nail-badge-primary {
+  background-color: var(--theme-primary-subtle);
+  color: var(--theme-primary);
+  border: 1px solid var(--theme-primary);
+}
+
+.nail-badge-gold {
+  background-color: var(--theme-secondary-subtle);
+  color: var(--theme-secondary);
+  border: 1px solid var(--theme-secondary);
+}
+
+.nail-btn-primary {
+  background-image: var(--theme-gradient-accent);
+  color: #ffffff;
+  box-shadow: 0 4px 15px var(--theme-shadow-glow);
+  transition: all 0.2s ease;
+}
+
+.nail-btn-primary:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
+
+.nail-btn-primary:active {
+  transform: scale(0.97);
+}
+
+/* Hide scrollbar for category tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

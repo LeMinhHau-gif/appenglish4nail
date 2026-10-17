@@ -1,0 +1,108 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "Thành viên học viên hoặc quản trị viên hệ thống NailSpeak Pro",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "name": { "type": "string", "maxLength": 100 },
+        "email": { "type": "string", "format": "email", "maxLength": 150 },
+        "role": { "type": "string", "enum": ["super_admin", "admin", "content_manager", "support", "analyst", "learner"] },
+        "status": { "type": "string", "enum": ["active", "locked"] },
+        "salonName": { "type": "string", "maxLength": 120 },
+        "salonLocation": { "type": "string", "maxLength": 120 },
+        "avatarUrl": { "type": "string", "maxLength": 500 },
+        "totalXp": { "type": "number" },
+        "streakDays": { "type": "number" },
+        "completedLessonsCount": { "type": "number" },
+        "avgPronunciationScore": { "type": "number" },
+        "subscriptionPlan": { "type": "string", "enum": ["free", "3_months", "6_months", "1_year", "lifetime"] },
+        "subscriptionStatus": { "type": "string", "enum": ["none", "pending", "active"] },
+        "subscriptionRequestedPlan": { "type": "string", "enum": ["3_months", "6_months", "1_year", "lifetime"] },
+        "subscriptionExpiresAt": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "lastLogin": { "type": "string" },
+        "authProvider": { "type": "string", "enum": ["google", "local", "demo"] }
+      },
+      "required": ["id", "name", "email", "role", "status", "createdAt"]
+    },
+    "LearnerHistoryRecord": {
+      "title": "LearnerHistoryRecord",
+      "description": "Lịch sử học tập và điểm phát âm AI của học viên",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "userId": { "type": "string", "maxLength": 128 },
+        "userEmail": { "type": "string", "maxLength": 150 },
+        "userName": { "type": "string", "maxLength": 100 },
+        "lessonId": { "type": "string", "maxLength": 50 },
+        "lessonTitle": { "type": "string", "maxLength": 150 },
+        "action": { "type": "string", "enum": ["lesson_complete", "recording_practice", "quiz", "vocab_save", "daily_streak"] },
+        "score": { "type": "number" },
+        "details": { "type": "string", "maxLength": 500 },
+        "targetSentence": { "type": "string", "maxLength": 300 },
+        "spokenSentence": { "type": "string", "maxLength": 300 },
+        "timestamp": { "type": "string" }
+      },
+      "required": ["id", "userId", "action", "timestamp"]
+    },
+    "SubscriptionRequest": {
+      "title": "SubscriptionRequest",
+      "description": "Yêu cầu đăng ký gói học viên cần Admin phê duyệt",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "userId": { "type": "string", "maxLength": 128 },
+        "userName": { "type": "string", "maxLength": 100 },
+        "userEmail": { "type": "string", "maxLength": 150 },
+        "salonName": { "type": "string", "maxLength": 120 },
+        "salonLocation": { "type": "string", "maxLength": 120 },
+        "planId": { "type": "string", "enum": ["3_months", "6_months", "1_year", "lifetime"] },
+        "planName": { "type": "string", "maxLength": 80 },
+        "priceUsd": { "type": "number" },
+        "status": { "type": "string", "enum": ["pending", "approved", "rejected"] },
+        "requestedAt": { "type": "string" },
+        "reviewedAt": { "type": "string" },
+        "reviewedBy": { "type": "string", "maxLength": 100 },
+        "note": { "type": "string", "maxLength": 500 }
+      },
+      "required": ["id", "userId", "userName", "userEmail", "planId", "priceUsd", "status", "requestedAt"]
+    },
+    "AuditLog": {
+      "title": "AuditLog",
+      "description": "Nhật ký kiểm toán hoạt động quản trị và bảo mật",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "timestamp": { "type": "string" },
+        "actorId": { "type": "string", "maxLength": 128 },
+        "actorName": { "type": "string", "maxLength": 100 },
+        "actorRole": { "type": "string", "maxLength": 50 },
+        "action": { "type": "string", "maxLength": 100 },
+        "targetResource": { "type": "string", "maxLength": 150 },
+        "details": { "type": "string", "maxLength": 1000 },
+        "status": { "type": "string", "enum": ["success", "denied", "failed"] }
+      },
+      "required": ["id", "timestamp", "actorId", "actorName", "action", "targetResource", "details", "status"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "User" },
+      "description": "Tài khoản học viên và nhân sự quản trị"
+    },
+    "/learnerHistory/{historyId}": {
+      "schema": { "$ref": "LearnerHistoryRecord" },
+      "description": "Dữ liệu lịch sử luyện nói và học tập của học viên"
+    },
+    "/subscriptions/{subscriptionId}": {
+      "schema": { "$ref": "SubscriptionRequest" },
+      "description": "Yêu cầu đăng ký gói thành viên VIP của thợ nail"
+    },
+    "/auditLogs/{logId}": {
+      "schema": { "$ref": "AuditLog" },
+      "description": "Nhật ký kiểm toán an ninh hệ thống"
+    }
+  }
+}
